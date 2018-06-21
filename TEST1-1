@@ -1,0 +1,357 @@
+Script started on Tue 22 May 2018 01:44:21 AM NZST
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ pwd
+/home/ngocngoc
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ cd /etc
+]0;ngocngoc@ubuntu: /etc[01;32mngocngoc@ubuntu[00m:[01;34m/etc[00m$ cd
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ cd /n[Kboot/grub
+]0;ngocngoc@ubuntu: /boot/grub[01;32mngocngoc@ubuntu[00m:[01;34m/boot/grub[00m$ cd ..
+]0;ngocngoc@ubuntu: /boot[01;32mngocngoc@ubuntu[00m:[01;34m/boot[00m$ cd /
+]0;ngocngoc@ubuntu: /[01;32mngocngoc@ubuntu[00m:[01;34m/[00m$ ls
+[0m[01;34mbin[0m    [01;34mdev[0m   [01;36minitrd.img[0m      [01;34mlib64[0m       [01;34mmnt[0m   [01;34mroot[0m  [01;34msnap[0m  [30;42mtmp[0m  [01;36mvmlinuz[0m
+[01;34mboot[0m   [01;34metc[0m   [01;36minitrd.img.old[0m  [01;34mlost+found[0m  [01;34mopt[0m   [01;34mrun[0m   [01;34msrv[0m   [01;34musr[0m  [01;36mvmlinuz.old[0m
+[01;34mcdrom[0m  [01;34mhome[0m  [01;34mlib[0m             [01;34mmedia[0m       [01;34mproc[0m  [01;34msbin[0m  [01;34msys[0m   [01;34mvar[0m
+]0;ngocngoc@ubuntu: /[01;32mngocngoc@ubuntu[00m:[01;34m/[00m$ ls -l
+total 100
+drwxr-xr-x   2 root root  4096 Mar  8 03:07 [0m[01;34mbin[0m
+drwxr-xr-x   3 root root  4096 May 21 03:18 [01;34mboot[0m
+drwxrwxr-x   2 root root  4096 Mar  8 02:40 [01;34mcdrom[0m
+drwxr-xr-x  18 root root  4020 May 22 01:37 [01;34mdev[0m
+drwxr-xr-x 131 root root 12288 May 21 03:18 [01;34metc[0m
+drwxr-xr-x   3 root root  4096 Mar  8 03:05 [01;34mhome[0m
+lrwxrwxrwx   1 root root    33 May 10 13:08 [01;36minitrd.img[0m -> boot/initrd.img-4.13.0-41-generic
+lrwxrwxrwx   1 root root    33 Apr 17 18:30 [01;36minitrd.img.old[0m -> boot/initrd.img-4.13.0-38-generic
+drwxr-xr-x  22 root root  4096 Mar  8 03:07 [01;34mlib[0m
+drwxr-xr-x   2 root root  4096 Mar  1 07:26 [01;34mlib64[0m
+drwx------   2 root root 16384 Mar  8 09:34 [01;34mlost+found[0m
+drwxr-xr-x   4 root root  4096 Mar 11 20:50 [01;34mmedia[0m
+drwxr-xr-x   2 root root  4096 Mar  1 07:25 [01;34mmnt[0m
+drwxr-xr-x   2 root root  4096 Mar  9 15:32 [01;34mopt[0m
+dr-xr-xr-x 230 root root     0 May 22 01:37 [01;34mproc[0m
+drwx------   4 root root  4096 Mar  8 03:11 [01;34mroot[0m
+drwxr-xr-x  24 root root   760 May 22 01:42 [01;34mrun[0m
+drwxr-xr-x   2 root root 12288 Mar 12 11:56 [01;34msbin[0m
+drwxr-xr-x   2 root root  4096 Dec  1 08:48 [01;34msnap[0m
+drwxr-xr-x   2 root root  4096 Mar  1 07:25 [01;34msrv[0m
+dr-xr-xr-x  13 root root     0 May 22 01:37 [01;34msys[0m
+drwxrwxrwt  10 root root  4096 May 22 01:43 [30;42mtmp[0m
+drwxr-xr-x  11 root root  4096 Mar  1 07:35 [01;34musr[0m
+drwxr-xr-x  14 root root  4096 Mar  1 07:52 [01;34mvar[0m
+lrwxrwxrwx   1 root root    30 May 10 13:08 [01;36mvmlinuz[0m -> boot/vmlinuz-4.13.0-41-generic
+lrwxrwxrwx   1 root root    30 Apr 17 18:30 [01;36mvmlinuz.old[0m -> boot/vmlinuz-4.13.0-38-generic
+]0;ngocngoc@ubuntu: /[01;32mngocngoc@ubuntu[00m:[01;34m/[00m$ ls /etc
+[0m[01;34macpi[0m                    hostname                 [01;34mppp[0m
+adduser.conf            hosts                    profile
+[01;34malternatives[0m            hosts.allow              [01;34mprofile.d[0m
+anacrontab              hosts.deny               protocols
+apg.conf                [01;34mhp[0m                       [01;34mpulse[0m
+[01;34mapm[0m                     [01;34mifplugd[0m                  [01;34mpython[0m
+[01;34mapparmor[0m                iftab                    [01;34mpython2.7[0m
+[01;34mapparmor.d[0m              [01;34mImageMagick-6[0m            [01;34mpython3[0m
+[01;34mapport[0m                  [01;34minit[0m                     [01;34mpython3.5[0m
+appstream.conf          [01;34minit.d[0m                   [01;34mrc0.d[0m
+[01;34mapt[0m                     [01;34minitramfs-tools[0m          [01;34mrc1.d[0m
+[01;34maptdaemon[0m               inputrc                  [01;34mrc2.d[0m
+[01;34mat-spi2[0m                 [01;34minsserv[0m                  [01;34mrc3.d[0m
+[01;34mavahi[0m                   insserv.conf             [01;34mrc4.d[0m
+bash.bashrc             [01;34minsserv.conf.d[0m           [01;34mrc5.d[0m
+bash_completion         [01;34miproute2[0m                 [01;34mrc6.d[0m
+[01;34mbash_completion.d[0m       issue                    rc.local
+bindresvport.blacklist  issue.net                [01;34mrcS.d[0m
+[01;34mbinfmt.d[0m                [01;34mkbd[0m                      [01;34mresolvconf[0m
+[01;34mbluetooth[0m               [01;34mkernel[0m                   [01;36mresolv.conf[0m
+brlapi.key              kernel-img.conf          [01;32mrmt[0m
+[01;34mbrltty[0m                  kerneloops.conf          rpc
+brltty.conf             [01;34mldap[0m                     rsyslog.conf
+[01;34mca-certificates[0m         ld.so.cache              [01;34mrsyslog.d[0m
+ca-certificates.conf    ld.so.conf               [01;34msane.d[0m
+[01;34mcalendar[0m                [01;34mld.so.conf.d[0m             securetty
+[01;34mchatscripts[0m             legal                    [01;34msecurity[0m
+[01;34mcompizconfig[0m            libao.conf               [01;34mselinux[0m
+[01;34mconsole-setup[0m           libaudit.conf            sensors3.conf
+[01;34mcracklib[0m                [01;34mlibnl-3[0m                  [01;34msensors.d[0m
+[01;34mcron.d[0m                  [01;34mlibpaper.d[0m               services
+[01;34mcron.daily[0m              [01;34mlibreoffice[0m              [01;34msgml[0m
+[01;34mcron.hourly[0m             [01;34mlightdm[0m                  shadow
+[01;34mcron.monthly[0m            lintianrc                shadow-
+crontab                 locale.alias             shells
+[01;34mcron.weekly[0m             locale.gen               signond.conf
+[01;34mcups[0m                    [01;36mlocaltime[0m                [01;34msignon-ui[0m
+[01;34mcupshelpers[0m             [01;34mlogcheck[0m                 [01;34mskel[0m
+[01;34mdbus-1[0m                  login.defs               [01;34mspeech-dispatcher[0m
+[01;34mdconf[0m                   logrotate.conf           [01;34mssh[0m
+debconf.conf            [01;34mlogrotate.d[0m              [01;34mssl[0m
+debian_version          lsb-release              subgid
+[01;34mdefault[0m                 ltrace.conf              subgid-
+deluser.conf            machine-id               subuid
+[01;34mdepmod.d[0m                magic                    subuid-
+[01;34mdhcp[0m                    magic.mime               sudoers
+[01;34mdictionaries-common[0m     mailcap                  [01;34msudoers.d[0m
+[01;34mdnsmasq.d[0m               mailcap.order            sysctl.conf
+[01;34mdoc-base[0m                manpath.config           [01;34msysctl.d[0m
+[01;34mdpkg[0m                    mime.types               [01;34msystemd[0m
+drirc                   mke2fs.conf              [01;34mterminfo[0m
+[01;34memacs[0m                   [01;34mmodprobe.d[0m               [01;34mthermald[0m
+environment             modules                  [01;34mthunderbird[0m
+[01;34mfirefox[0m                 [01;34mmodules-load.d[0m           timezone
+[01;34mfonts[0m                   [01;36mmtab[0m                     [01;34mtmpfiles.d[0m
+fstab                   mtools.conf              ucf.conf
+fuse.conf               nanorc                   [01;34mudev[0m
+fwupd.conf              [01;34mnetwork[0m                  [01;34mudisks2[0m
+gai.conf                [01;34mNetworkManager[0m           [01;34mufw[0m
+[01;34mgconf[0m                   networks                 updatedb.conf
+[01;34mgdb[0m                     [01;34mnewt[0m                     [01;34mupdate-manager[0m
+[01;34mghostscript[0m             nsswitch.conf            [01;34mupdate-motd.d[0m
+[01;34mgnome[0m                   [01;34mopt[0m                      [01;34mupdate-notifier[0m
+[01;34mgnome-app-install[0m       [01;36mos-release[0m               [01;34mUPower[0m
+[01;34mgroff[0m                   pam.conf                 upstart-xsessions
+group                   [01;34mpam.d[0m                    usb_modeswitch.conf
+group-                  papersize                [01;34musb_modeswitch.d[0m
+[01;34mgrub.d[0m                  passwd                   [01;34mvim[0m
+gshadow                 passwd-                  [01;34mvmware-tools[0m
+gshadow-                [01;34mpcmcia[0m                   [01;36mvtrgb[0m
+[01;34mgss[0m                     [01;34mperl[0m                     wgetrc
+[01;34mgtk-2.0[0m                 [01;34mpki[0m                      [01;34mwpa_supplicant[0m
+[01;34mgtk-3.0[0m                 [01;34mpm[0m                       [01;34mX11[0m
+[01;34mguest-session[0m           pnm2ppa.conf             [01;34mxdg[0m
+hdparm.conf             [01;34mpolkit-1[0m                 [01;34mxml[0m
+host.conf               popularity-contest.conf  zsh_command_not_found
+]0;ngocngoc@ubuntu: /[01;32mngocngoc@ubuntu[00m:[01;34m/[00m$ ls /bin /sbin
+/bin:
+[0m[01;32mbash[0m           [37;41mfusermount[0m  [01;32mnetworkctl[0m        [01;32mstty[0m
+[01;32mbunzip2[0m        [01;32mgetfacl[0m     [01;36mnisdomainname[0m     [37;41msu[0m
+[01;32mbusybox[0m        [01;32mgrep[0m        [37;41mntfs-3g[0m           [01;32msync[0m
+[01;32mbzcat[0m          [01;32mgunzip[0m      [01;32mntfs-3g.probe[0m     [01;32msystemctl[0m
+[01;36mbzcmp[0m          [01;32mgzexe[0m       [01;32mntfs-3g.secaudit[0m  [01;36msystemd[0m
+[01;32mbzdiff[0m         [01;32mgzip[0m        [01;32mntfs-3g.usermap[0m   [01;32msystemd-ask-password[0m
+[01;36mbzegrep[0m        [01;32mhciconfig[0m   [01;32mntfscat[0m           [01;32msystemd-escape[0m
+[01;32mbzexe[0m          [01;32mhostname[0m    [01;32mntfscluster[0m       [01;32msystemd-hwdb[0m
+[01;36mbzfgrep[0m        [01;32mip[0m          [01;32mntfscmp[0m           [01;32msystemd-inhibit[0m
+[01;32mbzgrep[0m         [01;32mjournalctl[0m  [01;32mntfsfallocate[0m     [01;32msystemd-machine-id-setup[0m
+[01;32mbzip2[0m          [01;32mkbd_mode[0m    [01;32mntfsfix[0m           [01;32msystemd-notify[0m
+[01;32mbzip2recover[0m   [01;32mkill[0m        [01;32mntfsinfo[0m          [01;32msystemd-tmpfiles[0m
+[01;36mbzless[0m         [01;32mkmod[0m        [01;32mntfsls[0m            [01;32msystemd-tty-ask-password-agent[0m
+[01;32mbzmore[0m         [01;32mless[0m        [01;32mntfsmove[0m          [01;32mtailf[0m
+[01;32mcat[0m            [01;32mlessecho[0m    [01;32mntfstruncate[0m      [01;32mtar[0m
+[01;32mchacl[0m          [01;36mlessfile[0m    [01;32mntfswipe[0m          [01;32mtempfile[0m
+[01;32mchgrp[0m          [01;32mlesskey[0m     [01;36mopen[0m              [01;32mtouch[0m
+[01;32mchmod[0m          [01;32mlesspipe[0m    [01;32mopenvt[0m            [01;32mtrue[0m
+[01;32mchown[0m          [01;32mln[0m          [01;36mpidof[0m             [01;32mudevadm[0m
+[01;32mchvt[0m           [01;32mloadkeys[0m    [37;41mping[0m              [01;32mulockmgr_server[0m
+[01;32mcp[0m             [01;32mlogin[0m       [37;41mping6[0m             [37;41mumount[0m
+[01;32mcpio[0m           [01;32mloginctl[0m    [01;32mplymouth[0m          [01;32muname[0m
+[01;32mdash[0m           [01;32mlowntfs-3g[0m  [01;32mps[0m                [01;32muncompress[0m
+[01;32mdate[0m           [01;32mls[0m          [01;32mpwd[0m               [01;32municode_start[0m
+[01;32mdd[0m             [01;32mlsblk[0m       [01;36mrbash[0m             [01;32mvdir[0m
+[01;32mdf[0m             [01;36mlsmod[0m       [01;32mreadlink[0m          [01;32mwdctl[0m
+[01;32mdir[0m            [01;32mmkdir[0m       [01;32mred[0m               [01;32mwhich[0m
+[01;32mdmesg[0m          [01;32mmknod[0m       [01;32mrm[0m                [01;32mwhiptail[0m
+[01;36mdnsdomainname[0m  [01;32mmktemp[0m      [01;32mrmdir[0m             [01;36mypdomainname[0m
+[01;36mdomainname[0m     [01;32mmore[0m        [01;36mrnano[0m             [01;32mzcat[0m
+[01;32mdumpkeys[0m       [37;41mmount[0m       [01;32mrun-parts[0m         [01;32mzcmp[0m
+[01;32mecho[0m           [01;32mmountpoint[0m  [01;32msed[0m               [01;32mzdiff[0m
+[01;32med[0m             [01;36mmt[0m          [01;32msetfacl[0m           [01;32mzegrep[0m
+[01;32mefibootmgr[0m     [01;32mmt-gnu[0m      [01;32msetfont[0m           [01;32mzfgrep[0m
+[01;32megrep[0m          [01;32mmv[0m          [01;32msetupcon[0m          [01;32mzforce[0m
+[01;32mfalse[0m          [01;32mnano[0m        [01;36msh[0m                [01;32mzgrep[0m
+[01;32mfgconsole[0m      [01;36mnc[0m          [01;36msh.distrib[0m        [01;32mzless[0m
+[01;32mfgrep[0m          [01;32mnc.openbsd[0m  [01;32msleep[0m             [01;32mzmore[0m
+[01;32mfindmnt[0m        [01;36mnetcat[0m      [01;32mss[0m                [01;32mznew[0m
+[01;32mfuser[0m          [01;32mnetstat[0m     [01;36mstatic-sh[0m
+
+/sbin:
+[01;32macpi_available[0m   [01;36mip[0m                     [01;32mpam_tally2[0m
+[01;32magetty[0m           [01;36mip6tables[0m              [01;32mparted[0m
+[01;32malsa[0m             [01;36mip6tables-restore[0m      [01;32mpartprobe[0m
+[01;32mapm_available[0m    [01;36mip6tables-save[0m         [01;32mpccardctl[0m
+[01;32mapparmor_parser[0m  [01;32mipmaddr[0m                [01;32mpivot_root[0m
+[01;32mbadblocks[0m        [01;36miptables[0m               [01;32mplipconfig[0m
+[01;32mblkdiscard[0m       [01;36miptables-restore[0m       [01;32mplymouthd[0m
+[01;32mblkid[0m            [01;36miptables-save[0m          [01;36mpoweroff[0m
+[01;32mblockdev[0m         [01;32miptunnel[0m               [01;32mrarp[0m
+[01;32mbridge[0m           [01;32misosize[0m                [01;32mraw[0m
+[01;32mbrltty[0m           [01;32miw[0m                     [01;36mreboot[0m
+[01;32mbrltty-setup[0m     [01;32miwconfig[0m               [01;32mregdbdump[0m
+[01;32mcapsh[0m            [01;32miwevent[0m                [01;36mreload[0m
+[01;32mcfdisk[0m           [01;32miwgetid[0m                [01;32mresize2fs[0m
+[01;32mcgdisk[0m           [01;32miwlist[0m                 [01;32mresolvconf[0m
+[01;32mchcpu[0m            [01;32miwpriv[0m                 [01;36mrestart[0m
+[01;32mcrda[0m             [01;32miwspy[0m                  [01;36mrmmod[0m
+[01;32mctrlaltdel[0m       [01;32mkbdrate[0m                [01;32mroute[0m
+[01;32mdebugfs[0m          [01;32mkillall5[0m               [01;32mrtacct[0m
+[01;36mdepmod[0m           [01;32mldconfig[0m               [01;32mrtmon[0m
+[01;32mdhclient[0m         [01;32mldconfig.real[0m          [01;36mrunlevel[0m
+[01;32mdhclient-script[0m  [01;32mlogsave[0m                [01;32mrunuser[0m
+[01;36mdosfsck[0m          [01;32mlosetup[0m                [01;32msetcap[0m
+[01;36mdosfslabel[0m       [01;36mlsmod[0m                  [01;32msetvtrgb[0m
+[01;32mdumpe2fs[0m         [01;36mlspcmcia[0m               [01;32msfdisk[0m
+[01;32me2fsck[0m           [01;32mMAKEDEV[0m                [01;32msgdisk[0m
+[01;32me2image[0m          [01;32mmii-tool[0m               [01;32mshadowconfig[0m
+[01;36me2label[0m          [01;36mmkdosfs[0m                [01;36mshutdown[0m
+[01;32me2undo[0m           [01;32mmke2fs[0m                 [01;32mslattach[0m
+[01;32methtool[0m          [01;32mmkfs[0m                   [01;36mstart[0m
+[01;32mfatlabel[0m         [01;32mmkfs.bfs[0m               [01;32mstart-stop-daemon[0m
+[01;32mfdisk[0m            [01;32mmkfs.cramfs[0m            [01;36mstatus[0m
+[01;32mfindfs[0m           [01;36mmkfs.ext2[0m              [01;36mstop[0m
+[01;32mfixparts[0m         [01;36mmkfs.ext3[0m              [01;32msulogin[0m
+[01;32mfsck[0m             [01;36mmkfs.ext4[0m              [01;32mswaplabel[0m
+[01;32mfsck.cramfs[0m      [01;36mmkfs.ext4dev[0m           [01;32mswapoff[0m
+[01;36mfsck.ext2[0m        [01;32mmkfs.fat[0m               [01;32mswapon[0m
+[01;36mfsck.ext3[0m        [01;32mmkfs.minix[0m             [01;32mswitch_root[0m
+[01;36mfsck.ext4[0m        [01;36mmkfs.msdos[0m             [01;32msysctl[0m
+[01;36mfsck.ext4dev[0m     [01;36mmkfs.ntfs[0m              [01;32mtc[0m
+[01;32mfsck.fat[0m         [01;36mmkfs.vfat[0m              [01;36mtelinit[0m
+[01;32mfsck.minix[0m       [01;32mmkhomedir_helper[0m       [01;32mtipc[0m
+[01;36mfsck.msdos[0m       [01;32mmkntfs[0m                 [01;32mtune2fs[0m
+[01;32mfsck.nfs[0m         [01;32mmkswap[0m                 [01;32mu-d-c-print-pci-ids[0m
+[01;36mfsck.vfat[0m        [01;32mmntctl[0m                 [01;36mudevadm[0m
+[01;32mfsfreeze[0m         [01;36mmodinfo[0m                [01;32mumount.udisks2[0m
+[01;32mfstab-decode[0m     [01;36mmodprobe[0m               [30;43munix_chkpwd[0m
+[01;32mfstrim[0m           [01;32mmountall[0m               [01;32munix_update[0m
+[01;32mgdisk[0m            [01;32mmount.fuse[0m             [01;32mupstart[0m
+[01;32mgetcap[0m           [01;36mmount.lowntfs-3g[0m       [01;32mupstart-dbus-bridge[0m
+[01;32mgetpcaps[0m         [01;36mmount.ntfs[0m             [01;32mupstart-event-bridge[0m
+[01;36mgetty[0m            [01;36mmount.ntfs-3g[0m          [01;32mupstart-file-bridge[0m
+[01;36mhalt[0m             [01;32mmount.vmhgfs[0m           [01;32mupstart-local-bridge[0m
+[01;32mhdparm[0m           [01;32mnameif[0m                 [01;32mupstart-socket-bridge[0m
+[01;32mhwclock[0m          [01;32mntfsclone[0m              [01;32mupstart-udev-bridge[0m
+[01;32mifconfig[0m         [01;32mntfscp[0m                 [01;32mureadahead[0m
+[01;36mifdown[0m           [01;32mntfslabel[0m              [01;32mwipefs[0m
+[01;36mifquery[0m          [01;32mntfsresize[0m             [01;32mwpa_action[0m
+[01;32mifup[0m             [01;32mntfsundelete[0m           [01;32mwpa_cli[0m
+[01;36minit[0m             [01;32mon_ac_power[0m            [01;32mwpa_supplicant[0m
+[01;32minitctl[0m          [30;43mpam_extrausers_chkpwd[0m  [01;32mxtables-multi[0m
+[01;36minsmod[0m           [01;32mpam_extrausers_update[0m  [01;32mzramctl[0m
+[01;32minstallkernel[0m    [01;32mpam_tally[0m
+]0;ngocngoc@ubuntu: /[01;32mngocngoc@ubuntu[00m:[01;34m/[00m$ ls ~
+[0m[01;34m7TH1[0m       [01;34mDownloads[0m         HPNgoc          [01;34mPictures[0m         [01;34mTHLinux[0m
+[01;34m7th2[0m       examples.desktop  mm.abc          programhcn.p     [01;32mtinhtong.sh[0m
+[01;34m7TH3[0m       filene            [01;34mMusic[0m           pr.py            Tong.py
+[01;34mBTH0305[0m    giaithua.sh       mypassword.txt  [01;34mPublic[0m           touch
+[01;34mC#[0m         hcn1.p            NDTM.txt        sv.p             typescript
+[01;32mdayso.p[0m    hcn.py            [01;34mngay2404[0m        [01;34mTemplates[0m        [01;34mVideos[0m
+day.txt    hello.c           [01;34mngocngoc[0m        [01;34mTesting[0m
+[01;34mDesktop[0m    hinhcn.py         ngocngockute    testtong.py
+[01;34mDocuments[0m  HPN               [01;34mpi[0m              thegioimang.txt
+]0;ngocngoc@ubuntu: /[01;32mngocngoc@ubuntu[00m:[01;34m/[00m$ ls -a ~
+[0m[01;34m.[0m                 giaithua.sh     .profile
+[01;34m..[0m                [01;34m.gnupg[0m          programhcn.p
+[01;34m7TH1[0m              hcn1.p          pr.py
+[01;34m7th2[0m              hcn.py          [01;34mPublic[0m
+[01;34m7TH3[0m              hello.c         .sudo_as_admin_successful
+.bash_history     hinhcn.py       sv.p
+.bash_logout      HPN             [01;34mTemplates[0m
+.bashrc           HPNgoc          [01;34mTesting[0m
+[01;34mBTH0305[0m           .ICEauthority   testtong.py
+[01;34mC#[0m                [01;34m.local[0m          thegioimang.txt
+[01;34m.cache[0m            mm.abc          [01;34mTHLinux[0m
+[01;34m.config[0m           [01;34m.mozilla[0m        [01;32mtinhtong.sh[0m
+[01;32mdayso.p[0m           [01;34mMusic[0m           Tong.py
+day.txt           mypassword.txt  touch
+[01;34mDesktop[0m           [01;34m.nano[0m           typescript
+.dmrc             NDTM.txt        [01;34mVideos[0m
+[01;34mDocuments[0m         [01;34mngay2404[0m        .Xauthority
+[01;34mDownloads[0m         [01;34mngocngoc[0m        .xsession-errors
+examples.desktop  ngocngockute    .xsession-errors.old
+filene            [01;34mpi[0m
+[01;34m.gconf[0m            [01;34mPictures[0m
+]0;ngocngoc@ubuntu: /[01;32mngocngoc@ubuntu[00m:[01;34m/[00m$ ls -al ~
+total 248
+drwxr-xr-x 27 ngocngoc ngocngoc  4096 May 22 01:44 [0m[01;34m.[0m
+drwxr-xr-x  3 root     root      4096 Mar  8 03:05 [01;34m..[0m
+drwxrwxr-x  5 ngocngoc ngocngoc  4096 Apr 10 19:13 [01;34m7TH1[0m
+drwxrwxr-x  3 ngocngoc ngocngoc  4096 Mar 20 19:52 [01;34m7th2[0m
+drwxrwxr-x  4 ngocngoc ngocngoc  4096 Apr 10 23:55 [01;34m7TH3[0m
+-rw-------  1 ngocngoc ngocngoc  5650 May 21 18:27 .bash_history
+-rw-r--r--  1 ngocngoc ngocngoc   220 Mar  8 03:05 .bash_logout
+-rw-r--r--  1 ngocngoc ngocngoc  3771 Mar  8 03:05 .bashrc
+drwxrwxr-x  3 ngocngoc ngocngoc  4096 May 10 13:00 [01;34mBTH0305[0m
+drwxrwxr-x  2 ngocngoc ngocngoc  4096 Mar 20 19:56 [01;34mC#[0m
+drwx------ 16 ngocngoc ngocngoc  4096 May  3 15:10 [01;34m.cache[0m
+drwx------ 18 ngocngoc ngocngoc  4096 Apr  5 12:40 [01;34m.config[0m
+-rwxrwxr-x  1 ngocngoc ngocngoc    94 Apr 18 00:39 [01;32mdayso.p[0m
+-rw-rw-r--  1 ngocngoc ngocngoc     0 Apr 24 19:40 day.txt
+drwxr-xr-x  2 ngocngoc ngocngoc  4096 Mar  8 03:10 [01;34mDesktop[0m
+-rw-r--r--  1 ngocngoc ngocngoc    25 Mar  8 03:10 .dmrc
+drwxr-xr-x  2 ngocngoc ngocngoc  4096 Apr 10 18:45 [01;34mDocuments[0m
+drwxr-xr-x  2 ngocngoc ngocngoc  4096 Mar 11 21:17 [01;34mDownloads[0m
+-rw-r--r--  1 ngocngoc ngocngoc  8980 Mar  8 03:05 examples.desktop
+-rw-rw-r--  1 ngocngoc ngocngoc     0 May  8 18:48 filene
+drwx------  2 ngocngoc ngocngoc  4096 Mar  8 03:44 [01;34m.gconf[0m
+-rw-rw-r--  1 ngocngoc ngocngoc   139 May  4 02:26 giaithua.sh
+drwx------  3 ngocngoc ngocngoc  4096 May 22 01:38 [01;34m.gnupg[0m
+-rw-rw-r--  1 ngocngoc ngocngoc   383 Apr 17 20:10 hcn1.p
+-rw-rw-r--  1 ngocngoc ngocngoc   166 Apr 17 19:41 hcn.py
+-rw-rw-r--  1 ngocngoc ngocngoc    91 May 10 13:43 hello.c
+-rw-rw-r--  1 ngocngoc ngocngoc   377 Apr 17 20:17 hinhcn.py
+-rw-rw-r--  1 ngocngoc ngocngoc   786 May 21 18:26 HPN
+-rw-rw-r--  1 ngocngoc ngocngoc 20480 May 22 02:03 HPNgoc
+-rw-------  1 ngocngoc ngocngoc 10180 May 22 01:38 .ICEauthority
+drwx------  3 ngocngoc ngocngoc  4096 Mar  8 03:10 [01;34m.local[0m
+-rw-rw-r--  1 ngocngoc ngocngoc     0 Mar 20 20:09 mm.abc
+drwx------  5 ngocngoc ngocngoc  4096 Mar 11 20:42 [01;34m.mozilla[0m
+drwxr-xr-x  2 ngocngoc ngocngoc  4096 Mar  8 03:10 [01;34mMusic[0m
+-rw-r--r--  1 ngocngoc ngocngoc  2363 Apr  5 14:48 mypassword.txt
+drwxrwxr-x  2 ngocngoc ngocngoc  4096 Apr 17 19:11 [01;34m.nano[0m
+-rw-rw-r--  1 ngocngoc ngocngoc     0 Apr 10 18:46 NDTM.txt
+drwxrwxr-x  2 ngocngoc ngocngoc  4096 May  3 12:55 [01;34mngay2404[0m
+drwxrwxr-x  3 ngocngoc ngocngoc  4096 May  8 18:49 [01;34mngocngoc[0m
+-rw-rw-r--  1 ngocngoc ngocngoc    37 Apr  5 13:51 ngocngockute
+drwxrwxr-x  3 ngocngoc ngocngoc  4096 May  8 18:34 [01;34mpi[0m
+drwxr-xr-x  2 ngocngoc ngocngoc  4096 Mar 20 20:03 [01;34mPictures[0m
+-rw-r--r--  1 ngocngoc ngocngoc   655 Mar  8 03:05 .profile
+-rw-rw-r--  1 ngocngoc ngocngoc   184 Apr 24 20:05 programhcn.p
+-rw-rw-r--  1 ngocngoc ngocngoc   860 Apr 24 20:38 pr.py
+drwxr-xr-x  2 ngocngoc ngocngoc  4096 Mar  8 03:10 [01;34mPublic[0m
+-rw-r--r--  1 ngocngoc ngocngoc     0 Mar  8 04:00 .sudo_as_admin_successful
+-rw-rw-r--  1 ngocngoc ngocngoc   792 Apr 18 01:38 sv.p
+drwxr-xr-x  2 ngocngoc ngocngoc  4096 Mar  8 03:10 [01;34mTemplates[0m
+drwxrwxr-x  2 ngocngoc ngocngoc  4096 May 21 22:50 [01;34mTesting[0m
+-rw-rw-r--  1 ngocngoc ngocngoc    71 Apr 18 00:01 testtong.py
+-rw-rw-r--  1 ngocngoc ngocngoc     0 Apr 11 01:45 thegioimang.txt
+drwxrwxr-x  2 ngocngoc ngocngoc  4096 Apr 20 15:04 [01;34mTHLinux[0m
+-rwxrwxr-x  1 ngocngoc ngocngoc    66 May  8 19:38 [01;32mtinhtong.sh[0m
+-rw-rw-r--  1 ngocngoc ngocngoc    69 Apr 17 19:12 Tong.py
+-rw-rw-r--  1 ngocngoc ngocngoc     0 Mar 20 20:10 touch
+-rw-rw-r--  1 ngocngoc ngocngoc     0 May 21 16:53 typescript
+drwxr-xr-x  2 ngocngoc ngocngoc  4096 Mar  8 03:10 [01;34mVideos[0m
+-rw-------  1 ngocngoc ngocngoc   102 May 22 01:38 .Xauthority
+-rw-------  1 ngocngoc ngocngoc    82 May 22 01:38 .xsession-errors
+-rw-------  1 ngocngoc ngocngoc    82 May 21 18:17 .xsession-errors.old
+]0;ngocngoc@ubuntu: /[01;32mngocngoc@ubuntu[00m:[01;34m/[00m$ ls -lh /boot
+total 242M
+-rw-r--r-- 1 root root 1.5M Feb 17 14:19 abi-4.13.0-36-generic
+-rw-r--r-- 1 root root 1.5M Mar  8 07:23 abi-4.13.0-37-generic
+-rw-r--r-- 1 root root 1.5M Mar 15 08:49 abi-4.13.0-38-generic
+-rw-r--r-- 1 root root 1.5M May  4 01:07 abi-4.13.0-41-generic
+-rw-r--r-- 1 root root 209K Feb 17 14:19 config-4.13.0-36-generic
+-rw-r--r-- 1 root root 209K Mar  8 07:23 config-4.13.0-37-generic
+-rw-r--r-- 1 root root 209K Mar 15 08:49 config-4.13.0-38-generic
+-rw-r--r-- 1 root root 209K May  4 01:07 config-4.13.0-41-generic
+drwxr-xr-x 5 root root 4.0K May 10 13:11 [0m[01;34mgrub[0m
+-rw-r--r-- 1 root root  48M May 21 03:17 initrd.img-4.13.0-36-generic
+-rw-r--r-- 1 root root  48M May 21 03:17 initrd.img-4.13.0-37-generic
+-rw-r--r-- 1 root root  48M May 21 03:16 initrd.img-4.13.0-38-generic
+-rw-r--r-- 1 root root  48M May 21 03:15 initrd.img-4.13.0-41-generic
+-rw-r--r-- 1 root root 179K Jan 29  2016 memtest86+.bin
+-rw-r--r-- 1 root root 181K Jan 29  2016 memtest86+.elf
+-rw-r--r-- 1 root root 181K Jan 29  2016 memtest86+_multiboot.bin
+-rw-r--r-- 1 root root 2.8K Feb 17 14:19 retpoline-4.13.0-36-generic
+-rw-r--r-- 1 root root 2.8K Mar  8 07:23 retpoline-4.13.0-37-generic
+-rw-r--r-- 1 root root 2.8K Mar 15 08:49 retpoline-4.13.0-38-generic
+-rw-r--r-- 1 root root  255 May  4 01:07 retpoline-4.13.0-41-generic
+-rw------- 1 root root 3.8M Feb 17 14:19 System.map-4.13.0-36-generic
+-rw------- 1 root root 3.8M Mar  8 07:23 System.map-4.13.0-37-generic
+-rw------- 1 root root 3.8M Mar 15 08:49 System.map-4.13.0-38-generic
+-rw------- 1 root root 3.8M May  4 01:07 System.map-4.13.0-41-generic
+-rw-r--r-- 1 root root 7.4M Mar  8 02:39 vmlinuz-4.13.0-36-generic
+-rw------- 1 root root 7.4M Mar  8 07:23 vmlinuz-4.13.0-37-generic
+-rw------- 1 root root 7.4M Mar 15 08:49 vmlinuz-4.13.0-38-generic
+-rw------- 1 root root 7.4M May  4 01:07 vmlinuz-4.13.0-41-generic
+]0;ngocngoc@ubuntu: /[01;32mngocngoc@ubuntu[00m:[01;34m/[00m$ mkdir ~/testdir
+]0;ngocngoc@ubuntu: /[01;32mngocngoc@ubuntu[00m:[01;34m/[00m$ cd /etc ; mkdir ~/newdir
+]0;ngocngoc@ubuntu: /etc[01;32mngocngoc@ubuntu[00m:[01;34m/etc[00m$ mkdir -p ~/dir1/dir2/dir3
+]0;ngocngoc@ubuntu: /etc[01;32mngocngoc@ubuntu[00m:[01;34m/etc[00m$ r[Kcd ; rmdir testdir
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Tue 22 May 2018 02:10:02 AM NZST

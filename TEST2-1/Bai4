@@ -1,0 +1,757 @@
+Script started on Wed 23 May 2018 12:19:08 AM NZST
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ cd /etc/init.d
+]0;ngocngoc@ubuntu: /etc/init.d[01;32mngocngoc@ubuntu[00m:[01;34m/etc/init.d[00m$ pwd
+/etc/init.d
+]0;ngocngoc@ubuntu: /etc/init.d[01;32mngocngoc@ubuntu[00m:[01;34m/etc/init.d[00m$ pwd -P
+/etc/init.d
+]0;ngocngoc@ubuntu: /etc/init.d[01;32mngocngoc@ubuntu[00m:[01;34m/etc/init.d[00m$ cd /
+]0;ngocngoc@ubuntu: /[01;32mngocngoc@ubuntu[00m:[01;34m/[00m$ cd -P /etc/init.d
+]0;ngocngoc@ubuntu: /etc/init.d[01;32mngocngoc@ubuntu[00m:[01;34m/etc/init.d[00m$ cd
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ cd -L /etc/init.d
+]0;ngocngoc@ubuntu: /etc/init.d[01;32mngocngoc@ubuntu[00m:[01;34m/etc/init.d[00m$ cd ~
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ cd /etc
+]0;ngocngoc@ubuntu: /etc[01;32mngocngoc@ubuntu[00m:[01;34m/etc[00m$ ls
+[0m[01;34macpi[0m                    hostname                 [01;34mppp[0m
+adduser.conf            hosts                    profile
+[01;34malternatives[0m            hosts.allow              [01;34mprofile.d[0m
+anacrontab              hosts.deny               protocols
+apg.conf                [01;34mhp[0m                       [01;34mpulse[0m
+[01;34mapm[0m                     [01;34mifplugd[0m                  [01;34mpython[0m
+[01;34mapparmor[0m                iftab                    [01;34mpython2.7[0m
+[01;34mapparmor.d[0m              [01;34mImageMagick-6[0m            [01;34mpython3[0m
+[01;34mapport[0m                  [01;34minit[0m                     [01;34mpython3.5[0m
+appstream.conf          [01;34minit.d[0m                   [01;34mrc0.d[0m
+[01;34mapt[0m                     [01;34minitramfs-tools[0m          [01;34mrc1.d[0m
+[01;34maptdaemon[0m               inputrc                  [01;34mrc2.d[0m
+[01;34mat-spi2[0m                 [01;34minsserv[0m                  [01;34mrc3.d[0m
+[01;34mavahi[0m                   insserv.conf             [01;34mrc4.d[0m
+bash.bashrc             [01;34minsserv.conf.d[0m           [01;34mrc5.d[0m
+bash_completion         [01;34miproute2[0m                 [01;34mrc6.d[0m
+[01;34mbash_completion.d[0m       issue                    rc.local
+bindresvport.blacklist  issue.net                [01;34mrcS.d[0m
+[01;34mbinfmt.d[0m                [01;34mkbd[0m                      [01;34mresolvconf[0m
+[01;34mbluetooth[0m               [01;34mkernel[0m                   [01;36mresolv.conf[0m
+brlapi.key              kernel-img.conf          [01;32mrmt[0m
+[01;34mbrltty[0m                  kerneloops.conf          rpc
+brltty.conf             [01;34mldap[0m                     rsyslog.conf
+[01;34mca-certificates[0m         ld.so.cache              [01;34mrsyslog.d[0m
+ca-certificates.conf    ld.so.conf               [01;34msane.d[0m
+[01;34mcalendar[0m                [01;34mld.so.conf.d[0m             securetty
+[01;34mchatscripts[0m             legal                    [01;34msecurity[0m
+[01;34mcompizconfig[0m            libao.conf               [01;34mselinux[0m
+[01;34mconsole-setup[0m           libaudit.conf            sensors3.conf
+[01;34mcracklib[0m                [01;34mlibnl-3[0m                  [01;34msensors.d[0m
+[01;34mcron.d[0m                  [01;34mlibpaper.d[0m               services
+[01;34mcron.daily[0m              [01;34mlibreoffice[0m              [01;34msgml[0m
+[01;34mcron.hourly[0m             [01;34mlightdm[0m                  shadow
+[01;34mcron.monthly[0m            lintianrc                shadow-
+crontab                 locale.alias             shells
+[01;34mcron.weekly[0m             locale.gen               signond.conf
+[01;34mcups[0m                    [01;36mlocaltime[0m                [01;34msignon-ui[0m
+[01;34mcupshelpers[0m             [01;34mlogcheck[0m                 [01;34mskel[0m
+[01;34mdbus-1[0m                  login.defs               [01;34mspeech-dispatcher[0m
+[01;34mdconf[0m                   logrotate.conf           [01;34mssh[0m
+debconf.conf            [01;34mlogrotate.d[0m              [01;34mssl[0m
+debian_version          lsb-release              subgid
+[01;34mdefault[0m                 ltrace.conf              subgid-
+deluser.conf            machine-id               subuid
+[01;34mdepmod.d[0m                magic                    subuid-
+[01;34mdhcp[0m                    magic.mime               sudoers
+[01;34mdictionaries-common[0m     mailcap                  [01;34msudoers.d[0m
+[01;34mdnsmasq.d[0m               mailcap.order            sysctl.conf
+[01;34mdoc-base[0m                manpath.config           [01;34msysctl.d[0m
+[01;34mdpkg[0m                    mime.types               [01;34msystemd[0m
+drirc                   mke2fs.conf              [01;34mterminfo[0m
+[01;34memacs[0m                   [01;34mmodprobe.d[0m               [01;34mthermald[0m
+environment             modules                  [01;34mthunderbird[0m
+[01;34mfirefox[0m                 [01;34mmodules-load.d[0m           timezone
+[01;34mfonts[0m                   [01;36mmtab[0m                     [01;34mtmpfiles.d[0m
+fstab                   mtools.conf              ucf.conf
+fuse.conf               nanorc                   [01;34mudev[0m
+fwupd.conf              [01;34mnetwork[0m                  [01;34mudisks2[0m
+gai.conf                [01;34mNetworkManager[0m           [01;34mufw[0m
+[01;34mgconf[0m                   networks                 updatedb.conf
+[01;34mgdb[0m                     [01;34mnewt[0m                     [01;34mupdate-manager[0m
+[01;34mghostscript[0m             nsswitch.conf            [01;34mupdate-motd.d[0m
+[01;34mgnome[0m                   [01;34mopt[0m                      [01;34mupdate-notifier[0m
+[01;34mgnome-app-install[0m       [01;36mos-release[0m               [01;34mUPower[0m
+[01;34mgroff[0m                   pam.conf                 upstart-xsessions
+group                   [01;34mpam.d[0m                    usb_modeswitch.conf
+group-                  papersize                [01;34musb_modeswitch.d[0m
+[01;34mgrub.d[0m                  passwd                   [01;34mvim[0m
+gshadow                 passwd-                  [01;34mvmware-tools[0m
+gshadow-                [01;34mpcmcia[0m                   [01;36mvtrgb[0m
+[01;34mgss[0m                     [01;34mperl[0m                     wgetrc
+[01;34mgtk-2.0[0m                 [01;34mpki[0m                      [01;34mwpa_supplicant[0m
+[01;34mgtk-3.0[0m                 [01;34mpm[0m                       [01;34mX11[0m
+[01;34mguest-session[0m           pnm2ppa.conf             [01;34mxdg[0m
+hdparm.conf             [01;34mpolkit-1[0m                 [01;34mxml[0m
+host.conf               popularity-contest.conf  zsh_command_not_found
+]0;ngocngoc@ubuntu: /etc[01;32mngocngoc@ubuntu[00m:[01;34m/etc[00m$ ls -i
+262153 [0m[01;34macpi[0m                    262323 login.defs
+262281 adduser.conf            262324 logrotate.conf
+262154 [01;34malternatives[0m            262220 [01;34mlogrotate.d[0m
+262282 anacrontab              262325 lsb-release
+262283 apg.conf                262326 ltrace.conf
+262155 [01;34mapm[0m                     262327 machine-id
+262156 [01;34mapparmor[0m                262328 magic
+262157 [01;34mapparmor.d[0m              262329 magic.mime
+262158 [01;34mapport[0m                  266416 mailcap
+262284 appstream.conf          262331 mailcap.order
+262159 [01;34mapt[0m                     262332 manpath.config
+262160 [01;34maptdaemon[0m               262333 mime.types
+262161 [01;34mat-spi2[0m                 262334 mke2fs.conf
+262162 [01;34mavahi[0m                   262222 [01;34mmodprobe.d[0m
+262285 bash.bashrc             262335 modules
+262286 bash_completion         262223 [01;34mmodules-load.d[0m
+262163 [01;34mbash_completion.d[0m       264860 [01;36mmtab[0m
+262287 bindresvport.blacklist  262336 mtools.conf
+262164 [01;34mbinfmt.d[0m                262337 nanorc
+262165 [01;34mbluetooth[0m               262224 [01;34mnetwork[0m
+262288 brlapi.key              262150 [01;34mNetworkManager[0m
+262166 [01;34mbrltty[0m                  262338 networks
+262289 brltty.conf             262225 [01;34mnewt[0m
+262167 [01;34mca-certificates[0m         262339 nsswitch.conf
+262290 ca-certificates.conf    262226 [01;34mopt[0m
+262168 [01;34mcalendar[0m                262340 [01;36mos-release[0m
+262169 [01;34mchatscripts[0m             262341 pam.conf
+262170 [01;34mcompizconfig[0m            262227 [01;34mpam.d[0m
+262171 [01;34mconsole-setup[0m           293718 papersize
+262172 [01;34mcracklib[0m                285319 passwd
+262173 [01;34mcron.d[0m                  293709 passwd-
+262174 [01;34mcron.daily[0m              262228 [01;34mpcmcia[0m
+262175 [01;34mcron.hourly[0m             262229 [01;34mperl[0m
+262176 [01;34mcron.monthly[0m            262230 [01;34mpki[0m
+262291 crontab                 262231 [01;34mpm[0m
+262177 [01;34mcron.weekly[0m             262344 pnm2ppa.conf
+262178 [01;34mcups[0m                    262232 [01;34mpolkit-1[0m
+262179 [01;34mcupshelpers[0m             262859 popularity-contest.conf
+262180 [01;34mdbus-1[0m                  262233 [01;34mppp[0m
+262181 [01;34mdconf[0m                   262347 profile
+262292 debconf.conf            262234 [01;34mprofile.d[0m
+262293 debian_version          262348 protocols
+262182 [01;34mdefault[0m                 262235 [01;34mpulse[0m
+262294 deluser.conf            262236 [01;34mpython[0m
+262183 [01;34mdepmod.d[0m                262237 [01;34mpython2.7[0m
+262184 [01;34mdhcp[0m                    262238 [01;34mpython3[0m
+262185 [01;34mdictionaries-common[0m     262239 [01;34mpython3.5[0m
+262186 [01;34mdnsmasq.d[0m               262240 [01;34mrc0.d[0m
+262187 [01;34mdoc-base[0m                262241 [01;34mrc1.d[0m
+262188 [01;34mdpkg[0m                    262242 [01;34mrc2.d[0m
+262295 drirc                   262243 [01;34mrc3.d[0m
+262189 [01;34memacs[0m                   262244 [01;34mrc4.d[0m
+262296 environment             262245 [01;34mrc5.d[0m
+262190 [01;34mfirefox[0m                 262246 [01;34mrc6.d[0m
+262191 [01;34mfonts[0m                   262673 rc.local
+262146 fstab                   262247 [01;34mrcS.d[0m
+262297 fuse.conf               262249 [01;34mresolvconf[0m
+262298 fwupd.conf              262351 [01;36mresolv.conf[0m
+262299 gai.conf                262352 [01;32mrmt[0m
+262192 [01;34mgconf[0m                   262353 rpc
+262193 [01;34mgdb[0m                     262354 rsyslog.conf
+262194 [01;34mghostscript[0m             262250 [01;34mrsyslog.d[0m
+262195 [01;34mgnome[0m                   262252 [01;34msane.d[0m
+262196 [01;34mgnome-app-install[0m       262355 securetty
+262197 [01;34mgroff[0m                   262253 [01;34msecurity[0m
+269723 group                   262254 [01;34mselinux[0m
+262301 group-                  262356 sensors3.conf
+262198 [01;34mgrub.d[0m                  262255 [01;34msensors.d[0m
+263996 gshadow                 262357 services
+293714 gshadow-                262256 [01;34msgml[0m
+262199 [01;34mgss[0m                     269721 shadow
+262200 [01;34mgtk-2.0[0m                 262343 shadow-
+262201 [01;34mgtk-3.0[0m                 262359 shells
+262202 [01;34mguest-session[0m           262360 signond.conf
+262302 hdparm.conf             262257 [01;34msignon-ui[0m
+262303 host.conf               262258 [01;34mskel[0m
+262304 hostname                262259 [01;34mspeech-dispatcher[0m
+262305 hosts                   262260 [01;34mssh[0m
+262306 hosts.allow             262261 [01;34mssl[0m
+262307 hosts.deny              293731 subgid
+262203 [01;34mhp[0m                      262362 subgid-
+262204 [01;34mifplugd[0m                 293730 subuid
+293695 iftab                   293724 subuid-
+262149 [01;34mImageMagick-6[0m           262363 sudoers
+262205 [01;34minit[0m                    262262 [01;34msudoers.d[0m
+262206 [01;34minit.d[0m                  262364 sysctl.conf
+262207 [01;34minitramfs-tools[0m         262263 [01;34msysctl.d[0m
+262308 inputrc                 262264 [01;34msystemd[0m
+262208 [01;34minsserv[0m                 262265 [01;34mterminfo[0m
+262309 insserv.conf            262266 [01;34mthermald[0m
+262209 [01;34minsserv.conf.d[0m          262267 [01;34mthunderbird[0m
+262210 [01;34miproute2[0m                262322 timezone
+262310 issue                   262268 [01;34mtmpfiles.d[0m
+262311 issue.net               262366 ucf.conf
+262211 [01;34mkbd[0m                     262269 [01;34mudev[0m
+262212 [01;34mkernel[0m                  262270 [01;34mudisks2[0m
+293732 kernel-img.conf         262271 [01;34mufw[0m
+262313 kerneloops.conf         262367 updatedb.conf
+262214 [01;34mldap[0m                    262272 [01;34mupdate-manager[0m
+266433 ld.so.cache             262273 [01;34mupdate-motd.d[0m
+262315 ld.so.conf              262274 [01;34mupdate-notifier[0m
+262213 [01;34mld.so.conf.d[0m            262151 [01;34mUPower[0m
+262316 legal                   262368 upstart-xsessions
+262317 libao.conf              262369 usb_modeswitch.conf
+262318 libaudit.conf           262275 [01;34musb_modeswitch.d[0m
+262215 [01;34mlibnl-3[0m                 262276 [01;34mvim[0m
+262216 [01;34mlibpaper.d[0m              276042 [01;34mvmware-tools[0m
+262217 [01;34mlibreoffice[0m             262370 [01;36mvtrgb[0m
+262218 [01;34mlightdm[0m                 262371 wgetrc
+262319 lintianrc               262277 [01;34mwpa_supplicant[0m
+262320 locale.alias            262152 [01;34mX11[0m
+262321 locale.gen              262278 [01;34mxdg[0m
+264954 [01;36mlocaltime[0m               262279 [01;34mxml[0m
+262219 [01;34mlogcheck[0m                262372 zsh_command_not_found
+]0;ngocngoc@ubuntu: /etc[01;32mngocngoc@ubuntu[00m:[01;34m/etc[00m$ ls -l
+total 1140
+drwxr-xr-x  3 root root    4096 Mar  1 07:38 [0m[01;34macpi[0m
+-rw-r--r--  1 root root    3028 Mar  1 07:25 adduser.conf
+drwxr-xr-x  2 root root    4096 Mar  8 03:07 [01;34malternatives[0m
+-rw-r--r--  1 root root     401 Dec 29  2014 anacrontab
+-rw-r--r--  1 root root     112 Jan 11  2014 apg.conf
+drwxr-xr-x  6 root root    4096 Mar  1 07:30 [01;34mapm[0m
+drwxr-xr-x  3 root root    4096 Mar  1 07:38 [01;34mapparmor[0m
+drwxr-xr-x  8 root root    4096 May 21 03:13 [01;34mapparmor.d[0m
+drwxr-xr-x  5 root root    4096 Mar  1 07:38 [01;34mapport[0m
+-rw-r--r--  1 root root     389 Apr 19  2016 appstream.conf
+drwxr-xr-x  6 root root    4096 Mar  9 15:30 [01;34mapt[0m
+drwxr-xr-x  3 root root    4096 Mar  1 07:35 [01;34maptdaemon[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:39 [01;34mat-spi2[0m
+drwxr-xr-x  3 root root    4096 Mar  1 07:39 [01;34mavahi[0m
+-rw-r--r--  1 root root    2188 Sep  1  2015 bash.bashrc
+-rw-r--r--  1 root root      45 Aug 13  2015 bash_completion
+drwxr-xr-x  2 root root    4096 Mar  8 03:07 [01;34mbash_completion.d[0m
+-rw-r--r--  1 root root     367 Jan 28  2016 bindresvport.blacklist
+drwxr-xr-x  2 root root    4096 Apr 12  2016 [01;34mbinfmt.d[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:39 [01;34mbluetooth[0m
+-rw-r--r--  1 root root      33 Mar  1 07:42 brlapi.key
+drwxr-xr-x  7 root root    4096 Mar  1 07:35 [01;34mbrltty[0m
+-rw-r--r--  1 root root   23444 Apr 28  2016 brltty.conf
+drwxr-xr-x  3 root root    4096 Mar  1 07:29 [01;34mca-certificates[0m
+-rw-r--r--  1 root root    6488 Mar  1 07:38 ca-certificates.conf
+drwxr-xr-x  2 root root    4096 Mar  1 07:35 [01;34mcalendar[0m
+drwxr-s---  2 root dip     4096 Mar  1 07:41 [01;34mchatscripts[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:42 [01;34mcompizconfig[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:27 [01;34mconsole-setup[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:39 [01;34mcracklib[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:38 [01;34mcron.d[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:42 [01;34mcron.daily[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:26 [01;34mcron.hourly[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:38 [01;34mcron.monthly[0m
+-rw-r--r--  1 root root     722 Apr  6  2016 crontab
+drwxr-xr-x  2 root root    4096 Mar  1 07:42 [01;34mcron.weekly[0m
+drwxr-xr-x  5 root lp      4096 May 22 23:16 [01;34mcups[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:41 [01;34mcupshelpers[0m
+drwxr-xr-x  4 root root    4096 Mar  1 07:28 [01;34mdbus-1[0m
+drwxr-xr-x  4 root root    4096 Mar  1 07:32 [01;34mdconf[0m
+-rw-r--r--  1 root root    2969 Nov 11  2015 debconf.conf
+-rw-r--r--  1 root root      12 Apr 30  2015 debian_version
+drwxr-xr-x  2 root root    4096 Mar  8 03:07 [01;34mdefault[0m
+-rw-r--r--  1 root root     604 Jul  3  2015 deluser.conf
+drwxr-xr-x  2 root root    4096 Mar  1 07:27 [01;34mdepmod.d[0m
+drwxr-xr-x  4 root root    4096 Mar 12 11:56 [01;34mdhcp[0m
+drwxr-xr-x  2 root root    4096 Mar  8 03:08 [01;34mdictionaries-common[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:39 [01;34mdnsmasq.d[0m
+drwxr-xr-x  3 root root    4096 Mar  1 07:31 [01;34mdoc-base[0m
+drwxr-xr-x  4 root root    4096 Mar  1 07:39 [01;34mdpkg[0m
+-rw-r--r--  1 root root    9129 Jan 30 09:07 drirc
+drwxr-xr-x  3 root root    4096 Mar  1 07:39 [01;34memacs[0m
+-rw-r--r--  1 root root      96 Mar  1 07:25 environment
+drwxr-xr-x  3 root root    4096 May 21 03:13 [01;34mfirefox[0m
+drwxr-xr-x  4 root root    4096 Mar  1 07:36 [01;34mfonts[0m
+-rw-rw-r--  1 root root     669 Mar  8 09:34 fstab
+-rw-r--r--  1 root root     280 Jun 20  2014 fuse.conf
+-rw-r--r--  1 root root     331 Aug 18  2016 fwupd.conf
+-rw-r--r--  1 root root    2584 Feb 19  2016 gai.conf
+drwxr-xr-x  5 root root    4096 Mar  1 07:30 [01;34mgconf[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:39 [01;34mgdb[0m
+drwxr-xr-x  4 root root    4096 Mar  1 07:30 [01;34mghostscript[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:39 [01;34mgnome[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:38 [01;34mgnome-app-install[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:35 [01;34mgroff[0m
+-rw-r--r--  1 root root    1047 Mar 20 15:51 group
+-rw-------  1 root root    1067 Mar 20 15:39 group-
+drwxr-xr-x  2 root root    4096 Mar  1 07:41 [01;34mgrub.d[0m
+-rw-r-----  1 root shadow   881 Mar 20 15:51 gshadow
+-rw-------  1 root root     898 Mar 20 15:39 gshadow-
+drwxr-xr-x  3 root root    4096 Mar  1 07:28 [01;34mgss[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:38 [01;34mgtk-2.0[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:42 [01;34mgtk-3.0[0m
+drwxr-xr-x  2 root root    4096 Apr  1  2017 [01;34mguest-session[0m
+-rw-r--r--  1 root root    4781 Mar 17  2016 hdparm.conf
+-rw-r--r--  1 root root      92 Oct 23  2015 host.conf
+-rw-r--r--  1 root root       7 Mar  8 02:40 hostname
+-rw-r--r--  1 root root     221 Mar  8 02:40 hosts
+-rw-r--r--  1 root root     411 Mar  1 07:38 hosts.allow
+-rw-r--r--  1 root root     711 Mar  1 07:38 hosts.deny
+drwxr-xr-x  2 root root    4096 Mar  1 07:39 [01;34mhp[0m
+drwxr-xr-x  3 root root    4096 Mar  1 07:31 [01;34mifplugd[0m
+-rw-rw-r--  1 root root     122 Mar  8 02:40 iftab
+drwxr-xr-x  2 root root    4096 Mar  1 07:38 [01;34mImageMagick-6[0m
+drwxr-xr-x  2 root root    4096 May 10 13:07 [01;34minit[0m
+drwxr-xr-x  2 root root    4096 May 10 13:07 [01;34minit.d[0m
+drwxr-xr-x  5 root root    4096 Mar  1 07:27 [01;34minitramfs-tools[0m
+-rw-r--r--  1 root root    1748 Feb  5  2016 inputrc
+drwxr-xr-x  3 root root    4096 Mar  7  2015 [01;34minsserv[0m
+-rw-r--r--  1 root root     771 Mar  7  2015 insserv.conf
+drwxr-xr-x  2 root root    4096 Mar  7  2015 [01;34minsserv.conf.d[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:27 [01;34miproute2[0m
+-rw-r--r--  1 root root      26 Feb 20 21:44 issue
+-rw-r--r--  1 root root      19 Feb 20 21:44 issue.net
+drwxr-xr-x  2 root root    4096 Mar  1 07:27 [01;34mkbd[0m
+drwxr-xr-x  4 root root    4096 Mar  1 07:25 [01;34mkernel[0m
+-rw-r--r--  1 root root     110 Mar  8 03:06 kernel-img.conf
+-rw-r--r--  1 root root    1308 Mar 11  2016 kerneloops.conf
+drwxr-xr-x  2 root root    4096 Mar  1 07:38 [01;34mldap[0m
+-rw-r--r--  1 root root   88699 May 21 03:18 ld.so.cache
+-rw-r--r--  1 root root      34 Jan 28  2016 ld.so.conf
+drwxr-xr-x  2 root root    4096 Mar  1 07:39 [01;34mld.so.conf.d[0m
+-rw-r--r--  1 root root     267 Oct 23  2015 legal
+-rw-r--r--  1 root root      27 Jan  8  2015 libao.conf
+-rw-r--r--  1 root root     191 Jan 19  2016 libaudit.conf
+drwxr-xr-x  2 root root    4096 Mar  1 07:39 [01;34mlibnl-3[0m
+drwxr-xr-x  2 root root    4096 Nov  5  2015 [01;34mlibpaper.d[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:42 [01;34mlibreoffice[0m
+drwxr-xr-x  3 root root    4096 Mar  1 07:38 [01;34mlightdm[0m
+-rw-r--r--  1 root root    1151 Jun  6  2017 lintianrc
+-rw-r--r--  1 root root    2995 Apr 15  2016 locale.alias
+-rw-r--r--  1 root root    9151 Mar  8 02:40 locale.gen
+lrwxrwxrwx  1 root root      38 Mar 11 22:01 [01;36mlocaltime[0m -> ../usr/share/zoneinfo/Pacific/Auckland
+drwxr-xr-x  4 root root    4096 Mar  1 07:31 [01;34mlogcheck[0m
+-rw-r--r--  1 root root   10551 Mar 29  2016 login.defs
+-rw-r--r--  1 root root     703 May  6  2015 logrotate.conf
+drwxr-xr-x  2 root root    4096 Mar  1 07:42 [01;34mlogrotate.d[0m
+-rw-r--r--  1 root root     105 Feb 20 21:43 lsb-release
+-rw-r--r--  1 root root   14867 Apr 12  2016 ltrace.conf
+-r--r--r--  1 root root      33 Mar  8 03:09 machine-id
+-rw-r--r--  1 root root     111 Nov 21  2015 magic
+-rw-r--r--  1 root root     111 Nov 21  2015 magic.mime
+-rw-r--r--  1 root root   49031 May 21 03:13 mailcap
+-rw-r--r--  1 root root     449 Oct 31  2015 mailcap.order
+-rw-r--r--  1 root root    5170 Nov  7  2015 manpath.config
+-rw-r--r--  1 root root   24241 Oct 31  2015 mime.types
+-rw-r--r--  1 root root     967 Oct 31  2015 mke2fs.conf
+drwxr-xr-x  2 root root    4096 Mar  1 07:38 [01;34mmodprobe.d[0m
+-rw-r--r--  1 root root     195 Mar  1 07:26 modules
+drwxr-xr-x  2 root root    4096 May 10 13:07 [01;34mmodules-load.d[0m
+lrwxrwxrwx  1 root root      19 Mar  8 03:05 [01;36mmtab[0m -> ../proc/self/mounts
+-rw-r--r--  1 root root     624 Aug  8  2007 mtools.conf
+-rw-r--r--  1 root root    8338 Feb 16  2017 nanorc
+drwxr-xr-x  7 root root    4096 Mar  1 07:26 [01;34mnetwork[0m
+drwxr-xr-x  8 root root    4096 Mar  1 07:39 [01;34mNetworkManager[0m
+-rw-r--r--  1 root root      91 Oct 23  2015 networks
+drwxr-xr-x  2 root root    4096 Mar  1 07:26 [01;34mnewt[0m
+-rw-r--r--  1 root root     529 Mar  1 07:39 nsswitch.conf
+drwxr-xr-x  2 root root    4096 Mar  1 07:25 [01;34mopt[0m
+lrwxrwxrwx  1 root root      21 Mar  8 02:34 [01;36mos-release[0m -> ../usr/lib/os-release
+-rw-r--r--  1 root root     552 Mar 17  2016 pam.conf
+drwxr-xr-x  2 root root    4096 Mar  9 15:32 [01;34mpam.d[0m
+-rw-rw-r--  1 root root       7 Mar  8 03:05 papersize
+-rw-r--r--  1 root root    2363 Mar 20 15:51 passwd
+-rw-------  1 root root    2420 Mar 20 15:39 passwd-
+drwxr-xr-x  2 root root    4096 Mar  1 07:38 [01;34mpcmcia[0m
+drwxr-xr-x  4 root root    4096 Mar  1 07:29 [01;34mperl[0m
+drwxr-xr-x  4 root root    4096 Mar  1 07:32 [01;34mpki[0m
+drwxr-xr-x  5 root root    4096 Mar  1 07:34 [01;34mpm[0m
+-rw-r--r--  1 root root    7649 Mar  1 07:41 pnm2ppa.conf
+drwxr-xr-x  5 root root    4096 Mar  1 07:31 [01;34mpolkit-1[0m
+-rw-rw-r--  1 root root     350 Mar  8 03:05 popularity-contest.conf
+drwxr-xr-x  8 root root    4096 Mar  1 07:41 [01;34mppp[0m
+-rw-r--r--  1 root root     575 Oct 23  2015 profile
+drwxr-xr-x  2 root root    4096 Mar  1 07:42 [01;34mprofile.d[0m
+-rw-r--r--  1 root root    2932 Oct 25  2014 protocols
+drwxr-xr-x  2 root root    4096 Mar  1 07:39 [01;34mpulse[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:35 [01;34mpython[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:28 [01;34mpython2.7[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:26 [01;34mpython3[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:27 [01;34mpython3.5[0m
+drwxr-xr-x  2 root root    4096 Mar  9 15:32 [01;34mrc0.d[0m
+drwxr-xr-x  2 root root    4096 Mar  9 15:32 [01;34mrc1.d[0m
+drwxr-xr-x  2 root root    4096 Mar  9 15:32 [01;34mrc2.d[0m
+drwxr-xr-x  2 root root    4096 Mar  9 15:32 [01;34mrc3.d[0m
+drwxr-xr-x  2 root root    4096 Mar  9 15:32 [01;34mrc4.d[0m
+drwxr-xr-x  2 root root    4096 Mar  9 15:32 [01;34mrc5.d[0m
+drwxr-xr-x  2 root root    4096 Mar  9 15:32 [01;34mrc6.d[0m
+-rw-rw-r--  1 root root     299 Mar  8 03:09 rc.local
+drwxr-xr-x  2 root root    4096 Mar  9 15:32 [01;34mrcS.d[0m
+drwxr-xr-x  5 root root    4096 Mar  1 07:30 [01;34mresolvconf[0m
+lrwxrwxrwx  1 root root      29 Mar  8 02:40 [01;36mresolv.conf[0m -> ../run/resolvconf/resolv.conf
+-rwxr-xr-x  1 root root     268 Nov 11  2015 [01;32mrmt[0m
+-rw-r--r--  1 root root     887 Oct 25  2014 rpc
+-rw-r--r--  1 root root    1371 Jan 28  2016 rsyslog.conf
+drwxr-xr-x  2 root root    4096 Mar  1 07:38 [01;34mrsyslog.d[0m
+drwxr-xr-x  3 root root    4096 Mar  1 07:41 [01;34msane.d[0m
+-rw-r--r--  1 root root    4038 Mar 29  2016 securetty
+drwxr-xr-x  4 root root    4096 Mar  1 07:39 [01;34msecurity[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:25 [01;34mselinux[0m
+-rw-r--r--  1 root root   10368 Oct  2  2015 sensors3.conf
+drwxr-xr-x  2 root root    4096 Mar  1 07:38 [01;34msensors.d[0m
+-rw-r--r--  1 root root   19605 Oct 25  2014 services
+drwxr-xr-x  2 root root    4096 Mar  1 07:39 [01;34msgml[0m
+-rw-r-----  1 root shadow  1303 Mar 20 15:51 shadow
+-rw-------  1 root root    1330 Mar 20 15:39 shadow-
+-rw-r--r--  1 root root      73 Mar  1 07:25 shells
+-rw-r--r--  1 root root    1803 Nov  6  2015 signond.conf
+drwxr-xr-x  3 root root    4096 Mar  1 07:30 [01;34msignon-ui[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:39 [01;34mskel[0m
+drwxr-xr-x  4 root root    4096 Mar  1 07:39 [01;34mspeech-dispatcher[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:38 [01;34mssh[0m
+drwxr-xr-x  4 root root    4096 Apr 20 14:53 [01;34mssl[0m
+-rw-r--r--  1 root root      22 Mar  8 03:05 subgid
+-rw-------  1 root root       0 Mar  1 07:25 subgid-
+-rw-r--r--  1 root root      22 Mar  8 03:05 subuid
+-rw-------  1 root root       0 Mar  1 07:25 subuid-
+-r--r-----  1 root root     755 Jul  4  2017 sudoers
+drwxr-xr-x  2 root root    4096 Mar  1 07:27 [01;34msudoers.d[0m
+-rw-r--r--  1 root root    2084 Sep  6  2015 sysctl.conf
+drwxr-xr-x  2 root root    4096 Mar  1 07:27 [01;34msysctl.d[0m
+drwxr-xr-x  5 root root    4096 Mar  1 07:26 [01;34msystemd[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:25 [01;34mterminfo[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:41 [01;34mthermald[0m
+drwxr-xr-x  2 root root    4096 Apr 17 18:33 [01;34mthunderbird[0m
+-rw-r--r--  1 root root      17 Mar 11 22:01 timezone
+drwxr-xr-x  2 root root    4096 Apr 12  2016 [01;34mtmpfiles.d[0m
+-rw-r--r--  1 root root    1260 Mar 17  2016 ucf.conf
+drwxr-xr-x  4 root root    4096 Mar  1 07:27 [01;34mudev[0m
+drwxr-xr-x  2 root root    4096 Apr  2  2016 [01;34mudisks2[0m
+drwxr-xr-x  3 root root    4096 Mar  1 07:38 [01;34mufw[0m
+-rw-r--r--  1 root root     338 Nov 18  2014 updatedb.conf
+drwxr-xr-x  3 root root    4096 Apr 17 18:30 [01;34mupdate-manager[0m
+drwxr-xr-x  2 root root    4096 Apr 17 18:30 [01;34mupdate-motd.d[0m
+drwxr-xr-x  2 root root    4096 Jan 19 01:42 [01;34mupdate-notifier[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:39 [01;34mUPower[0m
+-rw-r--r--  1 root root     270 May 20  2016 upstart-xsessions
+-rw-r--r--  1 root root    1018 Oct  6  2015 usb_modeswitch.conf
+drwxr-xr-x  2 root root    4096 Nov  3  2015 [01;34musb_modeswitch.d[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:27 [01;34mvim[0m
+drwxr-xr-x  3 root root    4096 Mar  9 15:32 [01;34mvmware-tools[0m
+lrwxrwxrwx  1 root root      23 Mar  8 02:34 [01;36mvtrgb[0m -> /etc/alternatives/vtrgb
+-rw-r--r--  1 root root    4942 Oct 25  2017 wgetrc
+drwxr-xr-x  2 root root    4096 Mar  1 07:39 [01;34mwpa_supplicant[0m
+drwxr-xr-x 11 root root    4096 Mar  1 07:42 [01;34mX11[0m
+drwxr-xr-x  5 root root    4096 Mar  1 07:42 [01;34mxdg[0m
+drwxr-xr-x  2 root root    4096 Mar  1 07:38 [01;34mxml[0m
+-rw-r--r--  1 root root     477 Jul 20  2015 zsh_command_not_found
+]0;ngocngoc@ubuntu: /etc[01;32mngocngoc@ubuntu[00m:[01;34m/etc[00m$ ls -a
+[0m[01;34m.[0m                       host.conf                [01;34mppp[0m
+[01;34m..[0m                      hostname                 profile
+[01;34macpi[0m                    hosts                    [01;34mprofile.d[0m
+adduser.conf            hosts.allow              protocols
+[01;34malternatives[0m            hosts.deny               [01;34mpulse[0m
+anacrontab              [01;34mhp[0m                       .pwd.lock
+apg.conf                [01;34mifplugd[0m                  [01;34mpython[0m
+[01;34mapm[0m                     iftab                    [01;34mpython2.7[0m
+[01;34mapparmor[0m                [01;34mImageMagick-6[0m            [01;34mpython3[0m
+[01;34mapparmor.d[0m              [01;34minit[0m                     [01;34mpython3.5[0m
+[01;34mapport[0m                  [01;34minit.d[0m                   [01;34mrc0.d[0m
+appstream.conf          [01;34minitramfs-tools[0m          [01;34mrc1.d[0m
+[01;34mapt[0m                     inputrc                  [01;34mrc2.d[0m
+[01;34maptdaemon[0m               [01;34minsserv[0m                  [01;34mrc3.d[0m
+[01;34mat-spi2[0m                 insserv.conf             [01;34mrc4.d[0m
+[01;34mavahi[0m                   [01;34minsserv.conf.d[0m           [01;34mrc5.d[0m
+bash.bashrc             [01;34miproute2[0m                 [01;34mrc6.d[0m
+bash_completion         issue                    rc.local
+[01;34mbash_completion.d[0m       issue.net                [01;34mrcS.d[0m
+bindresvport.blacklist  [01;34mkbd[0m                      [01;34mresolvconf[0m
+[01;34mbinfmt.d[0m                [01;34mkernel[0m                   [01;36mresolv.conf[0m
+[01;34mbluetooth[0m               kernel-img.conf          [01;32mrmt[0m
+brlapi.key              kerneloops.conf          rpc
+[01;34mbrltty[0m                  [01;34mldap[0m                     rsyslog.conf
+brltty.conf             ld.so.cache              [01;34mrsyslog.d[0m
+[01;34mca-certificates[0m         ld.so.conf               [01;34msane.d[0m
+ca-certificates.conf    [01;34mld.so.conf.d[0m             securetty
+[01;34mcalendar[0m                legal                    [01;34msecurity[0m
+[01;34mchatscripts[0m             libao.conf               [01;34mselinux[0m
+[01;34mcompizconfig[0m            libaudit.conf            sensors3.conf
+[01;34mconsole-setup[0m           [01;34mlibnl-3[0m                  [01;34msensors.d[0m
+[01;34mcracklib[0m                [01;34mlibpaper.d[0m               services
+[01;34mcron.d[0m                  [01;34mlibreoffice[0m              [01;34msgml[0m
+[01;34mcron.daily[0m              [01;34mlightdm[0m                  shadow
+[01;34mcron.hourly[0m             lintianrc                shadow-
+[01;34mcron.monthly[0m            locale.alias             shells
+crontab                 locale.gen               signond.conf
+[01;34mcron.weekly[0m             [01;36mlocaltime[0m                [01;34msignon-ui[0m
+[01;34mcups[0m                    [01;34mlogcheck[0m                 [01;34mskel[0m
+[01;34mcupshelpers[0m             login.defs               [01;34mspeech-dispatcher[0m
+[01;34mdbus-1[0m                  logrotate.conf           [01;34mssh[0m
+[01;34mdconf[0m                   [01;34mlogrotate.d[0m              [01;34mssl[0m
+debconf.conf            lsb-release              subgid
+debian_version          ltrace.conf              subgid-
+[01;34mdefault[0m                 machine-id               subuid
+deluser.conf            magic                    subuid-
+[01;34mdepmod.d[0m                magic.mime               sudoers
+[01;34mdhcp[0m                    mailcap                  [01;34msudoers.d[0m
+[01;34mdictionaries-common[0m     mailcap.order            sysctl.conf
+[01;34mdnsmasq.d[0m               manpath.config           [01;34msysctl.d[0m
+[01;34mdoc-base[0m                mime.types               [01;34msystemd[0m
+[01;34mdpkg[0m                    mke2fs.conf              [01;34mterminfo[0m
+drirc                   [01;34mmodprobe.d[0m               [01;34mthermald[0m
+[01;34memacs[0m                   modules                  [01;34mthunderbird[0m
+environment             [01;34mmodules-load.d[0m           timezone
+[01;34mfirefox[0m                 [01;36mmtab[0m                     [01;34mtmpfiles.d[0m
+[01;34mfonts[0m                   mtools.conf              ucf.conf
+fstab                   nanorc                   [01;34mudev[0m
+fuse.conf               [01;34mnetwork[0m                  [01;34mudisks2[0m
+fwupd.conf              [01;34mNetworkManager[0m           [01;34mufw[0m
+gai.conf                networks                 updatedb.conf
+[01;34mgconf[0m                   [01;34mnewt[0m                     [01;34mupdate-manager[0m
+[01;34mgdb[0m                     nsswitch.conf            [01;34mupdate-motd.d[0m
+[01;34mghostscript[0m             [01;34mopt[0m                      [01;34mupdate-notifier[0m
+[01;34mgnome[0m                   [01;36mos-release[0m               [01;34mUPower[0m
+[01;34mgnome-app-install[0m       pam.conf                 upstart-xsessions
+[01;34mgroff[0m                   [01;34mpam.d[0m                    usb_modeswitch.conf
+group                   papersize                [01;34musb_modeswitch.d[0m
+group-                  passwd                   [01;34mvim[0m
+[01;34mgrub.d[0m                  passwd-                  [01;34mvmware-tools[0m
+gshadow                 [01;34mpcmcia[0m                   [01;36mvtrgb[0m
+gshadow-                [01;34mperl[0m                     wgetrc
+[01;34mgss[0m                     [01;34mpki[0m                      [01;34mwpa_supplicant[0m
+[01;34mgtk-2.0[0m                 [01;34mpm[0m                       [01;34mX11[0m
+[01;34mgtk-3.0[0m                 pnm2ppa.conf             [01;34mxdg[0m
+[01;34mguest-session[0m           [01;34mpolkit-1[0m                 [01;34mxml[0m
+hdparm.conf             popularity-contest.conf  zsh_command_not_found
+]0;ngocngoc@ubuntu: /etc[01;32mngocngoc@ubuntu[00m:[01;34m/etc[00m$ ls -ila
+total 1156
+262145 drwxr-xr-x 131 root root   12288 May 21 03:18 [0m[01;34m.[0m
+     2 drwxr-xr-x  24 root root    4096 May 10 13:08 [01;34m..[0m
+262153 drwxr-xr-x   3 root root    4096 Mar  1 07:38 [01;34macpi[0m
+262281 -rw-r--r--   1 root root    3028 Mar  1 07:25 adduser.conf
+262154 drwxr-xr-x   2 root root    4096 Mar  8 03:07 [01;34malternatives[0m
+262282 -rw-r--r--   1 root root     401 Dec 29  2014 anacrontab
+262283 -rw-r--r--   1 root root     112 Jan 11  2014 apg.conf
+262155 drwxr-xr-x   6 root root    4096 Mar  1 07:30 [01;34mapm[0m
+262156 drwxr-xr-x   3 root root    4096 Mar  1 07:38 [01;34mapparmor[0m
+262157 drwxr-xr-x   8 root root    4096 May 21 03:13 [01;34mapparmor.d[0m
+262158 drwxr-xr-x   5 root root    4096 Mar  1 07:38 [01;34mapport[0m
+262284 -rw-r--r--   1 root root     389 Apr 19  2016 appstream.conf
+262159 drwxr-xr-x   6 root root    4096 Mar  9 15:30 [01;34mapt[0m
+262160 drwxr-xr-x   3 root root    4096 Mar  1 07:35 [01;34maptdaemon[0m
+262161 drwxr-xr-x   2 root root    4096 Mar  1 07:39 [01;34mat-spi2[0m
+262162 drwxr-xr-x   3 root root    4096 Mar  1 07:39 [01;34mavahi[0m
+262285 -rw-r--r--   1 root root    2188 Sep  1  2015 bash.bashrc
+262286 -rw-r--r--   1 root root      45 Aug 13  2015 bash_completion
+262163 drwxr-xr-x   2 root root    4096 Mar  8 03:07 [01;34mbash_completion.d[0m
+262287 -rw-r--r--   1 root root     367 Jan 28  2016 bindresvport.blacklist
+262164 drwxr-xr-x   2 root root    4096 Apr 12  2016 [01;34mbinfmt.d[0m
+262165 drwxr-xr-x   2 root root    4096 Mar  1 07:39 [01;34mbluetooth[0m
+262288 -rw-r--r--   1 root root      33 Mar  1 07:42 brlapi.key
+262166 drwxr-xr-x   7 root root    4096 Mar  1 07:35 [01;34mbrltty[0m
+262289 -rw-r--r--   1 root root   23444 Apr 28  2016 brltty.conf
+262167 drwxr-xr-x   3 root root    4096 Mar  1 07:29 [01;34mca-certificates[0m
+262290 -rw-r--r--   1 root root    6488 Mar  1 07:38 ca-certificates.conf
+262168 drwxr-xr-x   2 root root    4096 Mar  1 07:35 [01;34mcalendar[0m
+262169 drwxr-s---   2 root dip     4096 Mar  1 07:41 [01;34mchatscripts[0m
+262170 drwxr-xr-x   2 root root    4096 Mar  1 07:42 [01;34mcompizconfig[0m
+262171 drwxr-xr-x   2 root root    4096 Mar  1 07:27 [01;34mconsole-setup[0m
+262172 drwxr-xr-x   2 root root    4096 Mar  1 07:39 [01;34mcracklib[0m
+262173 drwxr-xr-x   2 root root    4096 Mar  1 07:38 [01;34mcron.d[0m
+262174 drwxr-xr-x   2 root root    4096 Mar  1 07:42 [01;34mcron.daily[0m
+262175 drwxr-xr-x   2 root root    4096 Mar  1 07:26 [01;34mcron.hourly[0m
+262176 drwxr-xr-x   2 root root    4096 Mar  1 07:38 [01;34mcron.monthly[0m
+262291 -rw-r--r--   1 root root     722 Apr  6  2016 crontab
+262177 drwxr-xr-x   2 root root    4096 Mar  1 07:42 [01;34mcron.weekly[0m
+262178 drwxr-xr-x   5 root lp      4096 May 22 23:16 [01;34mcups[0m
+262179 drwxr-xr-x   2 root root    4096 Mar  1 07:41 [01;34mcupshelpers[0m
+262180 drwxr-xr-x   4 root root    4096 Mar  1 07:28 [01;34mdbus-1[0m
+262181 drwxr-xr-x   4 root root    4096 Mar  1 07:32 [01;34mdconf[0m
+262292 -rw-r--r--   1 root root    2969 Nov 11  2015 debconf.conf
+262293 -rw-r--r--   1 root root      12 Apr 30  2015 debian_version
+262182 drwxr-xr-x   2 root root    4096 Mar  8 03:07 [01;34mdefault[0m
+262294 -rw-r--r--   1 root root     604 Jul  3  2015 deluser.conf
+262183 drwxr-xr-x   2 root root    4096 Mar  1 07:27 [01;34mdepmod.d[0m
+262184 drwxr-xr-x   4 root root    4096 Mar 12 11:56 [01;34mdhcp[0m
+262185 drwxr-xr-x   2 root root    4096 Mar  8 03:08 [01;34mdictionaries-common[0m
+262186 drwxr-xr-x   2 root root    4096 Mar  1 07:39 [01;34mdnsmasq.d[0m
+262187 drwxr-xr-x   3 root root    4096 Mar  1 07:31 [01;34mdoc-base[0m
+262188 drwxr-xr-x   4 root root    4096 Mar  1 07:39 [01;34mdpkg[0m
+262295 -rw-r--r--   1 root root    9129 Jan 30 09:07 drirc
+262189 drwxr-xr-x   3 root root    4096 Mar  1 07:39 [01;34memacs[0m
+262296 -rw-r--r--   1 root root      96 Mar  1 07:25 environment
+262190 drwxr-xr-x   3 root root    4096 May 21 03:13 [01;34mfirefox[0m
+262191 drwxr-xr-x   4 root root    4096 Mar  1 07:36 [01;34mfonts[0m
+262146 -rw-rw-r--   1 root root     669 Mar  8 09:34 fstab
+262297 -rw-r--r--   1 root root     280 Jun 20  2014 fuse.conf
+262298 -rw-r--r--   1 root root     331 Aug 18  2016 fwupd.conf
+262299 -rw-r--r--   1 root root    2584 Feb 19  2016 gai.conf
+262192 drwxr-xr-x   5 root root    4096 Mar  1 07:30 [01;34mgconf[0m
+262193 drwxr-xr-x   2 root root    4096 Mar  1 07:39 [01;34mgdb[0m
+262194 drwxr-xr-x   4 root root    4096 Mar  1 07:30 [01;34mghostscript[0m
+262195 drwxr-xr-x   2 root root    4096 Mar  1 07:39 [01;34mgnome[0m
+262196 drwxr-xr-x   2 root root    4096 Mar  1 07:38 [01;34mgnome-app-install[0m
+262197 drwxr-xr-x   2 root root    4096 Mar  1 07:35 [01;34mgroff[0m
+269723 -rw-r--r--   1 root root    1047 Mar 20 15:51 group
+262301 -rw-------   1 root root    1067 Mar 20 15:39 group-
+262198 drwxr-xr-x   2 root root    4096 Mar  1 07:41 [01;34mgrub.d[0m
+263996 -rw-r-----   1 root shadow   881 Mar 20 15:51 gshadow
+293714 -rw-------   1 root root     898 Mar 20 15:39 gshadow-
+262199 drwxr-xr-x   3 root root    4096 Mar  1 07:28 [01;34mgss[0m
+262200 drwxr-xr-x   2 root root    4096 Mar  1 07:38 [01;34mgtk-2.0[0m
+262201 drwxr-xr-x   2 root root    4096 Mar  1 07:42 [01;34mgtk-3.0[0m
+262202 drwxr-xr-x   2 root root    4096 Apr  1  2017 [01;34mguest-session[0m
+262302 -rw-r--r--   1 root root    4781 Mar 17  2016 hdparm.conf
+262303 -rw-r--r--   1 root root      92 Oct 23  2015 host.conf
+262304 -rw-r--r--   1 root root       7 Mar  8 02:40 hostname
+262305 -rw-r--r--   1 root root     221 Mar  8 02:40 hosts
+262306 -rw-r--r--   1 root root     411 Mar  1 07:38 hosts.allow
+262307 -rw-r--r--   1 root root     711 Mar  1 07:38 hosts.deny
+262203 drwxr-xr-x   2 root root    4096 Mar  1 07:39 [01;34mhp[0m
+262204 drwxr-xr-x   3 root root    4096 Mar  1 07:31 [01;34mifplugd[0m
+293695 -rw-rw-r--   1 root root     122 Mar  8 02:40 iftab
+262149 drwxr-xr-x   2 root root    4096 Mar  1 07:38 [01;34mImageMagick-6[0m
+262205 drwxr-xr-x   2 root root    4096 May 10 13:07 [01;34minit[0m
+262206 drwxr-xr-x   2 root root    4096 May 10 13:07 [01;34minit.d[0m
+262207 drwxr-xr-x   5 root root    4096 Mar  1 07:27 [01;34minitramfs-tools[0m
+262308 -rw-r--r--   1 root root    1748 Feb  5  2016 inputrc
+262208 drwxr-xr-x   3 root root    4096 Mar  7  2015 [01;34minsserv[0m
+262309 -rw-r--r--   1 root root     771 Mar  7  2015 insserv.conf
+262209 drwxr-xr-x   2 root root    4096 Mar  7  2015 [01;34minsserv.conf.d[0m
+262210 drwxr-xr-x   2 root root    4096 Mar  1 07:27 [01;34miproute2[0m
+262310 -rw-r--r--   1 root root      26 Feb 20 21:44 issue
+262311 -rw-r--r--   1 root root      19 Feb 20 21:44 issue.net
+262211 drwxr-xr-x   2 root root    4096 Mar  1 07:27 [01;34mkbd[0m
+262212 drwxr-xr-x   4 root root    4096 Mar  1 07:25 [01;34mkernel[0m
+293732 -rw-r--r--   1 root root     110 Mar  8 03:06 kernel-img.conf
+262313 -rw-r--r--   1 root root    1308 Mar 11  2016 kerneloops.conf
+262214 drwxr-xr-x   2 root root    4096 Mar  1 07:38 [01;34mldap[0m
+266433 -rw-r--r--   1 root root   88699 May 21 03:18 ld.so.cache
+262315 -rw-r--r--   1 root root      34 Jan 28  2016 ld.so.conf
+262213 drwxr-xr-x   2 root root    4096 Mar  1 07:39 [01;34mld.so.conf.d[0m
+262316 -rw-r--r--   1 root root     267 Oct 23  2015 legal
+262317 -rw-r--r--   1 root root      27 Jan  8  2015 libao.conf
+262318 -rw-r--r--   1 root root     191 Jan 19  2016 libaudit.conf
+262215 drwxr-xr-x   2 root root    4096 Mar  1 07:39 [01;34mlibnl-3[0m
+262216 drwxr-xr-x   2 root root    4096 Nov  5  2015 [01;34mlibpaper.d[0m
+262217 drwxr-xr-x   2 root root    4096 Mar  1 07:42 [01;34mlibreoffice[0m
+262218 drwxr-xr-x   3 root root    4096 Mar  1 07:38 [01;34mlightdm[0m
+262319 -rw-r--r--   1 root root    1151 Jun  6  2017 lintianrc
+262320 -rw-r--r--   1 root root    2995 Apr 15  2016 locale.alias
+262321 -rw-r--r--   1 root root    9151 Mar  8 02:40 locale.gen
+264954 lrwxrwxrwx   1 root root      38 Mar 11 22:01 [01;36mlocaltime[0m -> ../usr/share/zoneinfo/Pacific/Auckland
+262219 drwxr-xr-x   4 root root    4096 Mar  1 07:31 [01;34mlogcheck[0m
+262323 -rw-r--r--   1 root root   10551 Mar 29  2016 login.defs
+262324 -rw-r--r--   1 root root     703 May  6  2015 logrotate.conf
+262220 drwxr-xr-x   2 root root    4096 Mar  1 07:42 [01;34mlogrotate.d[0m
+262325 -rw-r--r--   1 root root     105 Feb 20 21:43 lsb-release
+262326 -rw-r--r--   1 root root   14867 Apr 12  2016 ltrace.conf
+262327 -r--r--r--   1 root root      33 Mar  8 03:09 machine-id
+262328 -rw-r--r--   1 root root     111 Nov 21  2015 magic
+262329 -rw-r--r--   1 root root     111 Nov 21  2015 magic.mime
+266416 -rw-r--r--   1 root root   49031 May 21 03:13 mailcap
+262331 -rw-r--r--   1 root root     449 Oct 31  2015 mailcap.order
+262332 -rw-r--r--   1 root root    5170 Nov  7  2015 manpath.config
+262333 -rw-r--r--   1 root root   24241 Oct 31  2015 mime.types
+262334 -rw-r--r--   1 root root     967 Oct 31  2015 mke2fs.conf
+262222 drwxr-xr-x   2 root root    4096 Mar  1 07:38 [01;34mmodprobe.d[0m
+262335 -rw-r--r--   1 root root     195 Mar  1 07:26 modules
+262223 drwxr-xr-x   2 root root    4096 May 10 13:07 [01;34mmodules-load.d[0m
+264860 lrwxrwxrwx   1 root root      19 Mar  8 03:05 [01;36mmtab[0m -> ../proc/self/mounts
+262336 -rw-r--r--   1 root root     624 Aug  8  2007 mtools.conf
+262337 -rw-r--r--   1 root root    8338 Feb 16  2017 nanorc
+262224 drwxr-xr-x   7 root root    4096 Mar  1 07:26 [01;34mnetwork[0m
+262150 drwxr-xr-x   8 root root    4096 Mar  1 07:39 [01;34mNetworkManager[0m
+262338 -rw-r--r--   1 root root      91 Oct 23  2015 networks
+262225 drwxr-xr-x   2 root root    4096 Mar  1 07:26 [01;34mnewt[0m
+262339 -rw-r--r--   1 root root     529 Mar  1 07:39 nsswitch.conf
+262226 drwxr-xr-x   2 root root    4096 Mar  1 07:25 [01;34mopt[0m
+262340 lrwxrwxrwx   1 root root      21 Mar  8 02:34 [01;36mos-release[0m -> ../usr/lib/os-release
+262341 -rw-r--r--   1 root root     552 Mar 17  2016 pam.conf
+262227 drwxr-xr-x   2 root root    4096 Mar  9 15:32 [01;34mpam.d[0m
+293718 -rw-rw-r--   1 root root       7 Mar  8 03:05 papersize
+285319 -rw-r--r--   1 root root    2363 Mar 20 15:51 passwd
+293709 -rw-------   1 root root    2420 Mar 20 15:39 passwd-
+262228 drwxr-xr-x   2 root root    4096 Mar  1 07:38 [01;34mpcmcia[0m
+262229 drwxr-xr-x   4 root root    4096 Mar  1 07:29 [01;34mperl[0m
+262230 drwxr-xr-x   4 root root    4096 Mar  1 07:32 [01;34mpki[0m
+262231 drwxr-xr-x   5 root root    4096 Mar  1 07:34 [01;34mpm[0m
+262344 -rw-r--r--   1 root root    7649 Mar  1 07:41 pnm2ppa.conf
+262232 drwxr-xr-x   5 root root    4096 Mar  1 07:31 [01;34mpolkit-1[0m
+262859 -rw-rw-r--   1 root root     350 Mar  8 03:05 popularity-contest.conf
+262233 drwxr-xr-x   8 root root    4096 Mar  1 07:41 [01;34mppp[0m
+262347 -rw-r--r--   1 root root     575 Oct 23  2015 profile
+262234 drwxr-xr-x   2 root root    4096 Mar  1 07:42 [01;34mprofile.d[0m
+262348 -rw-r--r--   1 root root    2932 Oct 25  2014 protocols
+262235 drwxr-xr-x   2 root root    4096 Mar  1 07:39 [01;34mpulse[0m
+262280 -rw-------   1 root root       0 Mar  1 07:25 .pwd.lock
+262236 drwxr-xr-x   2 root root    4096 Mar  1 07:35 [01;34mpython[0m
+262237 drwxr-xr-x   2 root root    4096 Mar  1 07:28 [01;34mpython2.7[0m
+262238 drwxr-xr-x   2 root root    4096 Mar  1 07:26 [01;34mpython3[0m
+262239 drwxr-xr-x   2 root root    4096 Mar  1 07:27 [01;34mpython3.5[0m
+262240 drwxr-xr-x   2 root root    4096 Mar  9 15:32 [01;34mrc0.d[0m
+262241 drwxr-xr-x   2 root root    4096 Mar  9 15:32 [01;34mrc1.d[0m
+262242 drwxr-xr-x   2 root root    4096 Mar  9 15:32 [01;34mrc2.d[0m
+262243 drwxr-xr-x   2 root root    4096 Mar  9 15:32 [01;34mrc3.d[0m
+262244 drwxr-xr-x   2 root root    4096 Mar  9 15:32 [01;34mrc4.d[0m
+262245 drwxr-xr-x   2 root root    4096 Mar  9 15:32 [01;34mrc5.d[0m
+262246 drwxr-xr-x   2 root root    4096 Mar  9 15:32 [01;34mrc6.d[0m
+262673 -rw-rw-r--   1 root root     299 Mar  8 03:09 rc.local
+262247 drwxr-xr-x   2 root root    4096 Mar  9 15:32 [01;34mrcS.d[0m
+262249 drwxr-xr-x   5 root root    4096 Mar  1 07:30 [01;34mresolvconf[0m
+262351 lrwxrwxrwx   1 root root      29 Mar  8 02:40 [01;36mresolv.conf[0m -> ../run/resolvconf/resolv.conf
+262352 -rwxr-xr-x   1 root root     268 Nov 11  2015 [01;32mrmt[0m
+262353 -rw-r--r--   1 root root     887 Oct 25  2014 rpc
+262354 -rw-r--r--   1 root root    1371 Jan 28  2016 rsyslog.conf
+262250 drwxr-xr-x   2 root root    4096 Mar  1 07:38 [01;34mrsyslog.d[0m
+262252 drwxr-xr-x   3 root root    4096 Mar  1 07:41 [01;34msane.d[0m
+262355 -rw-r--r--   1 root root    4038 Mar 29  2016 securetty
+262253 drwxr-xr-x   4 root root    4096 Mar  1 07:39 [01;34msecurity[0m
+262254 drwxr-xr-x   2 root root    4096 Mar  1 07:25 [01;34mselinux[0m
+262356 -rw-r--r--   1 root root   10368 Oct  2  2015 sensors3.conf
+262255 drwxr-xr-x   2 root root    4096 Mar  1 07:38 [01;34msensors.d[0m
+262357 -rw-r--r--   1 root root   19605 Oct 25  2014 services
+262256 drwxr-xr-x   2 root root    4096 Mar  1 07:39 [01;34msgml[0m
+269721 -rw-r-----   1 root shadow  1303 Mar 20 15:51 shadow
+262343 -rw-------   1 root root    1330 Mar 20 15:39 shadow-
+262359 -rw-r--r--   1 root root      73 Mar  1 07:25 shells
+262360 -rw-r--r--   1 root root    1803 Nov  6  2015 signond.conf
+262257 drwxr-xr-x   3 root root    4096 Mar  1 07:30 [01;34msignon-ui[0m
+262258 drwxr-xr-x   2 root root    4096 Mar  1 07:39 [01;34mskel[0m
+262259 drwxr-xr-x   4 root root    4096 Mar  1 07:39 [01;34mspeech-dispatcher[0m
+262260 drwxr-xr-x   2 root root    4096 Mar  1 07:38 [01;34mssh[0m
+262261 drwxr-xr-x   4 root root    4096 Apr 20 14:53 [01;34mssl[0m
+293731 -rw-r--r--   1 root root      22 Mar  8 03:05 subgid
+262362 -rw-------   1 root root       0 Mar  1 07:25 subgid-
+293730 -rw-r--r--   1 root root      22 Mar  8 03:05 subuid
+293724 -rw-------   1 root root       0 Mar  1 07:25 subuid-
+262363 -r--r-----   1 root root     755 Jul  4  2017 sudoers
+262262 drwxr-xr-x   2 root root    4096 Mar  1 07:27 [01;34msudoers.d[0m
+262364 -rw-r--r--   1 root root    2084 Sep  6  2015 sysctl.conf
+262263 drwxr-xr-x   2 root root    4096 Mar  1 07:27 [01;34msysctl.d[0m
+262264 drwxr-xr-x   5 root root    4096 Mar  1 07:26 [01;34msystemd[0m
+262265 drwxr-xr-x   2 root root    4096 Mar  1 07:25 [01;34mterminfo[0m
+262266 drwxr-xr-x   2 root root    4096 Mar  1 07:41 [01;34mthermald[0m
+262267 drwxr-xr-x   2 root root    4096 Apr 17 18:33 [01;34mthunderbird[0m
+262322 -rw-r--r--   1 root root      17 Mar 11 22:01 timezone
+262268 drwxr-xr-x   2 root root    4096 Apr 12  2016 [01;34mtmpfiles.d[0m
+262366 -rw-r--r--   1 root root    1260 Mar 17  2016 ucf.conf
+262269 drwxr-xr-x   4 root root    4096 Mar  1 07:27 [01;34mudev[0m
+262270 drwxr-xr-x   2 root root    4096 Apr  2  2016 [01;34mudisks2[0m
+262271 drwxr-xr-x   3 root root    4096 Mar  1 07:38 [01;34mufw[0m
+262367 -rw-r--r--   1 root root     338 Nov 18  2014 updatedb.conf
+262272 drwxr-xr-x   3 root root    4096 Apr 17 18:30 [01;34mupdate-manager[0m
+262273 drwxr-xr-x   2 root root    4096 Apr 17 18:30 [01;34mupdate-motd.d[0m
+262274 drwxr-xr-x   2 root root    4096 Jan 19 01:42 [01;34mupdate-notifier[0m
+262151 drwxr-xr-x   2 root root    4096 Mar  1 07:39 [01;34mUPower[0m
+262368 -rw-r--r--   1 root root     270 May 20  2016 upstart-xsessions
+262369 -rw-r--r--   1 root root    1018 Oct  6  2015 usb_modeswitch.conf
+262275 drwxr-xr-x   2 root root    4096 Nov  3  2015 [01;34musb_modeswitch.d[0m
+262276 drwxr-xr-x   2 root root    4096 Mar  1 07:27 [01;34mvim[0m
+276042 drwxr-xr-x   3 root root    4096 Mar  9 15:32 [01;34mvmware-tools[0m
+262370 lrwxrwxrwx   1 root root      23 Mar  8 02:34 [01;36mvtrgb[0m -> /etc/alternatives/vtrgb
+262371 -rw-r--r--   1 root root    4942 Oct 25  2017 wgetrc
+262277 drwxr-xr-x   2 root root    4096 Mar  1 07:39 [01;34mwpa_supplicant[0m
+262152 drwxr-xr-x  11 root root    4096 Mar  1 07:42 [01;34mX11[0m
+262278 drwxr-xr-x   5 root root    4096 Mar  1 07:42 [01;34mxdg[0m
+262279 drwxr-xr-x   2 root root    4096 Mar  1 07:38 [01;34mxml[0m
+262372 -rw-r--r--   1 root root     477 Jul 20  2015 zsh_command_not_found
+]0;ngocngoc@ubuntu: /etc[01;32mngocngoc@ubuntu[00m:[01;34m/etc[00m$ mkdir /a/b/c/d/e/f/g/g[Kh
+mkdir: cannot create directory ‘/a/b/c/d/e/f/g/h’: No such file or directory
+]0;ngocngoc@ubuntu: /etc[01;32mngocngoc@ubuntu[00m:[01;34m/etc[00m$ mkdir /a /a/b /a/b/c
+mkdir: cannot create directory ‘/a’: Permission denied
+mkdir: cannot create directory ‘/a/b’: No such file or directory
+mkdir: cannot create directory ‘/a/b/c’: No such file or directory
+]0;ngocngoc@ubuntu: /etc[01;32mngocngoc@ubuntu[00m:[01;34m/etc[00m$ mkdir -p /a/b/c/d/e/f
+mkdir: cannot create directory ‘/a’: Permission denied
+]0;ngocngoc@ubuntu: /etc[01;32mngocngoc@ubuntu[00m:[01;34m/etc[00m$ exit
+exit
+
+Script done on Wed 23 May 2018 12:23:01 AM NZST

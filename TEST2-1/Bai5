@@ -1,0 +1,103 @@
+Script started on Tue 22 May 2018 10:01:10 PM NZST
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ date
+Tue May 22 22:01:19 NZST 2018
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ pwd
+/home/ngocngoc
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ ls
+[0m[01;34m7TH1[0m        [01;32mdayso.p[0m           hcn.py          [01;34mngocngoc[0m      [01;31mTest1-2.zip[0m
+[01;34m7th2[0m        day.txt           hello.c         ngocngockute  [01;34mTEST2-1[0m
+[01;34m7TH3[0m        [01;34mDesktop[0m           hinhcn.py       [01;34mpi[0m            [01;34mTesting[0m
+[01;34mathena[0m      [01;34mdir1[0m              HPN             [01;34mPictures[0m      testtong.py
+Bai4        [01;34mDocuments[0m         HPNgoc          programhcn.p  [01;34mTHLinux[0m
+Bai5        [01;34mDownloads[0m         mm.abc          pr.py         [01;32mtinhtong.sh[0m
+[01;34mBTH0305[0m     examples.desktop  [01;34mMusic[0m           [01;34mPublic[0m        Tong.py
+[01;34mC#[0m          filene            mypassword.txt  sv.p          [01;34mtouched[0m
+catcnt.txt  ftt.txt           NDTM.txt        tailing.txt   typescript
+cnt.txt     giaithua.sh       [01;34mnewdir[0m          [01;34mTemplates[0m     [01;34mVideos[0m
+count.txt   hcn1.p            [01;34mngay2404[0m        [01;34mTest1-2[0m
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ who
+ngocngoc tty7         2018-05-22 01:38 (:0)
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ su
+Password: 
+su: Authentication failure
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ 19[K[Kcal
+      May 2018        
+Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5  
+ 6  7  8  9 10 11 12  
+13 14 15 16 17 18 19  
+20 21 [7m22[27m 23 24 25 26  
+27 28 29 30 31        
+                      
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ cat giaithua.sh
+echo "Chuong trinh tinh $1!"
+index=0
+gt=1
+while [ $index -lt $1 ]
+do
+	index=$(($index + 1))
+	gt=$(($gt*$index))
+done
+echo "$1!=$gt"
+exit 0
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ more giaithua.sh
+echo "Chuong trinh tinh $1!"
+index=0
+gt=1
+while [ $index -lt $1 ]
+do
+	index=$(($index + 1))
+	gt=$(($gt*$index))
+done
+echo "$1!=$gt"
+exit 0
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ head -1 giaithua.sh
+echo "Chuong trinh tinh $1!"
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ tail -1 giaithua.sh
+exit 0
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ cat ?[K> thegioimang.txt
+" Chào mừng các bạn đến   với diền đàn m Mạng máy tính-         Máy Tính-wWw.Th       -
+wWw.TheGioiMang.oRg. Nơi g   giao lưu trao đổi và chia sẻ các kiến thức Mạng
+Máy Tính nói riêng và CNTT nói chung.
+Chúc các bạn thành công và hạnh phúc !!!" ^C
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ cat > thegioimang.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcat > thegioimang.txt
+Chào mừng các bạn đến với diễn đàn Mạng máy tính-
+wWw.TheGioiMang.oRg. Nơi giao lưu trao đổi và chia sẻ các t kiến thức Mạng
+Máy Tính nói riêng và CNTT nói chung.
+Chúc các bạn thành công và hạnh phúc !!!
+^C
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ mkdir athena athena.[K/class1 athena/class2 athena/class3 athena /class4 athena/class5 athena/class6
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ mkdir athena/class2.[K/basic_network athena/class3/Linux athena  class4/ccna [K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[Kna/ class4/ccna athena/class6/mcs[K[K[K[K[K5/ccnp athena/class6/mcsa athena/class6/ceh
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ tee athena/class1/thegioimang.txt athena/class2/thegioimang.t xt athena/class3/thegioimang.txt athena/class4/thegioimang.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcp thegioimang.txt athena/class1/thegioimang.txt
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ cp thegioimang.txt athena/class2/thegioimang.txt athena/class 3/thegioimang.txt athena/class4/thegioimang.txt
+cp: target 'athena/class4/thegioimang.txt' is not a directory
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ cp thegioimang.txt athena/class2/thegioimang.txt athena/class33/thegioimang.txt athena/class4/thegioimang.txt[A[C[C[C[13P1/thegioimang.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C21/thegioimang.txt[1P1/thegioimang.txt[C[1P/thegioimang.txt2/thegioimang.txt
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ cp thegioimang.txt athena/class2/thegioimang.txt[C[1P2/thegioimang.txts2/thegioimang.txt[C[1P/thegioimang.txt3/thegioimang.txt
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ cp thegioimang.txt athena/class3/thegioimang.txt[1P/thegioimang.txt4/thegioimang.txt
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ touch file1
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ touch file2
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ cp g[Kfile1 athena/class5/file1
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ cp file2 athena/class6/file2
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ pwd
+/home/ngocngoc
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ rm athena [K/class1/thegioimang.txt
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ rm athena/class1/thegioimang.txt[1P/thegioimang.txt3/thegioimang.txt
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ mv athena/class4.[K.[K/ccna athena/class5/ccnp
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ mv athena/class3.[K/Linux athena/class6/ceh
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ cp -r athena/class6/ceh athena/class5/ccnp
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ ln thegioimangtxt file1.[K[K[K[K[K[K[K[K[K[K[Kg.txt file1.txt
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ ls[Kn -sf file1.txt thegioimang.txt
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ ls -sf file2,[K.txt thegioimang.txt
+ls: cannot access 'file2.txt': No such file or directory
+thegioimang.txt
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ ls -sf file2.txt thegioimang.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn -sf file1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@2
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ rm hardlink
+rm: cannot remove 'hardlink': No such file or directory
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ file [K[K[Knd -type l -delete
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Tue 22 May 2018 10:54:48 PM NZST

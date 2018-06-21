@@ -1,0 +1,442 @@
+Script started on Tue 22 May 2018 11:19:28 PM NZST
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ cd
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ cd /etc
+]0;ngocngoc@ubuntu: /etc[01;32mngocngoc@ubuntu[00m:[01;34m/etc[00m$ cd /usr/lib
+]0;ngocngoc@ubuntu: /usr/lib[01;32mngocngoc@ubuntu[00m:[01;34m/usr/lib[00m$ ls ~
+[0m[01;34m7TH1[0m        [01;32mdayso.p[0m           giaithua.sh     [01;34mngay2404[0m      [01;31mTest1-2.zip[0m
+[01;34m7th2[0m        day.txt           hcn1.p          [01;34mngocngoc[0m      [01;34mTEST2-1[0m
+[01;34m7TH3[0m        [01;34mDesktop[0m           hcn.py          ngocngockute  [01;34mTesting[0m
+[01;34mathena[0m      [01;34mdir1[0m              hello.c         [01;34mpi[0m            testtong.py
+Bai4        [01;34mDocuments[0m         hinhcn.py       [01;34mPictures[0m      [01;34mTHLinux[0m
+Bai5        [01;34mDownloads[0m         HPN             programhcn.p  [01;32mtinhtong.sh[0m
+Bai6        examples.desktop  HPNgoc          pr.py         Tong.py
+[01;34mBTH0305[0m     file1             mm.abc          [01;34mPublic[0m        [01;34mtouched[0m
+[01;34mC#[0m          file1.txt         [01;34mMusic[0m           sv.p          typescript
+catcnt.txt  file2             mypassword.txt  tailing.txt   [01;34mVideos[0m
+cnt.txt     filene            NDTM.txt        [01;34mTemplates[0m
+count.txt   ftt.txt           [01;34mnewdir[0m          [01;34mTest1-2[0m
+]0;ngocngoc@ubuntu: /usr/lib[01;32mngocngoc@ubuntu[00m:[01;34m/usr/lib[00m$ cd ; ls -la \[K| more
+total 392
+drwxr-xr-x 33 ngocngoc ngocngoc  4096 May 22 23:19 .
+drwxr-xr-x  3 root     root      4096 Mar  8 03:05 ..
+drwxrwxr-x  5 ngocngoc ngocngoc  4096 Apr 10 19:13 7TH1
+drwxrwxr-x  3 ngocngoc ngocngoc  4096 Mar 20 19:52 7th2
+drwxrwxr-x  4 ngocngoc ngocngoc  4096 Apr 10 23:55 7TH3
+drwxrwxr-x  8 ngocngoc ngocngoc  4096 May 22 22:13 athena
+-rw-rw-r--  1 ngocngoc ngocngoc 53771 May 22 21:40 Bai4
+-rw-rw-r--  1 ngocngoc ngocngoc  9166 May 22 22:54 Bai5
+-rw-rw-r--  1 ngocngoc ngocngoc     0 May 22 23:19 Bai6
+-rw-------  1 ngocngoc ngocngoc  8617 May 22 22:55 .bash_history
+-rw-r--r--  1 ngocngoc ngocngoc   220 Mar  8 03:05 .bash_logout
+-rw-r--r--  1 ngocngoc ngocngoc  3771 Mar  8 03:05 .bashrc
+drwxrwxr-x  3 ngocngoc ngocngoc  4096 May 10 13:00 BTH0305
+drwxrwxr-x  2 ngocngoc ngocngoc  4096 Mar 20 19:56 C#
+drwx------ 16 ngocngoc ngocngoc  4096 May  3 15:10 .cache
+-rw-rw-r--  1 ngocngoc ngocngoc    24 May 22 03:12 catcnt.txt
+-rw-rw-r--  1 ngocngoc ngocngoc    24 May 22 03:09 cnt.txt
+drwx------ 18 ngocngoc ngocngoc  4096 Apr  5 12:40 .config
+-rw-rw-r--  1 ngocngoc ngocngoc    24 May 22 03:08 count.txt
+-rwxrwxr-x  1 ngocngoc ngocngoc    94 Apr 18 00:39 dayso.p
+-rw-rw-r--  1 ngocngoc ngocngoc     0 Apr 24 19:40 day.txt
+drwxr-xr-x  2 ngocngoc ngocngoc  4096 Mar  8 03:10 Desktop
+[7m--More--[27m[K]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ alilas [K[K[K[Kas lietke ='ls-l'
+bash: alias: lietke: not found
+bash: alias: =ls-l: not found
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ alias lietke ='ls-l'[C[1P='ls-l'[C[C[C[C -l'
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ touch home.list ; alias lietke='ls -l' >> home.list
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ mv home [K[Ke.list homelist.txt
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ k[Kmkdir linux2002
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ cp homelist.txt linux2002
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ ls -d /etc/[bkn]*
+/etc/bash.bashrc             /etc/brlapi.key       /etc/kerneloops.conf
+/etc/bash_completion         [0m[01;34m/etc/brltty[0m           /etc/nanorc
+[01;34m/etc/bash_completion.d[0m       /etc/brltty.conf      [01;34m/etc/network[0m
+/etc/bindresvport.blacklist  [01;34m/etc/kbd[0m              /etc/networks
+[01;34m/etc/binfmt.d[0m                [01;34m/etc/kernel[0m           [01;34m/etc/newt[0m
+[01;34m/etc/bluetooth[0m               /etc/kernel-img.conf  /etc/nsswitch.conf
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ ls /etc/[m-t]*
+/etc/machine-id      [0m[01;36m/etc/os-release[0m               /etc/securetty
+/etc/magic           /etc/pam.conf                 /etc/sensors3.conf
+/etc/magic.mime      /etc/papersize                /etc/services
+/etc/mailcap         /etc/passwd                   /etc/shadow
+/etc/mailcap.order   /etc/passwd-                  /etc/shadow-
+/etc/manpath.config  /etc/pnm2ppa.conf             /etc/shells
+/etc/mime.types      /etc/popularity-contest.conf  /etc/signond.conf
+/etc/mke2fs.conf     /etc/profile                  /etc/subgid
+/etc/modules         /etc/protocols                /etc/subgid-
+[01;36m/etc/mtab[0m            /etc/rc.local                 /etc/subuid
+/etc/mtools.conf     [01;36m/etc/resolv.conf[0m              /etc/subuid-
+/etc/nanorc          [01;32m/etc/rmt[0m                      /etc/sudoers
+/etc/networks        /etc/rpc                      /etc/sysctl.conf
+/etc/nsswitch.conf   /etc/rsyslog.conf             /etc/timezone
+
+/etc/modprobe.d:
+alsa-base.conf           blacklist-framebuffer.conf   blacklist-watchdog.conf
+blacklist-ath_pci.conf   blacklist-modem.conf         fbdev-blacklist.conf
+blacklist.conf           [01;36mblacklist-oss.conf[0m           iwlwifi.conf
+blacklist-firewire.conf  blacklist-rare-network.conf  mlx4.conf
+
+/etc/modules-load.d:
+cups-filters.conf  [01;36mmodules.conf[0m
+
+/etc/network:
+[01;34mif-down.d[0m  [01;34mif-post-down.d[0m  [01;34mif-pre-up.d[0m  [01;34mif-up.d[0m  interfaces  [01;34minterfaces.d[0m
+
+/etc/NetworkManager:
+[01;34mconf.d[0m        [01;34mdnsmasq.d[0m         NetworkManager.conf  [01;34mVPN[0m
+[01;34mdispatcher.d[0m  [01;34mdnsmasq-shared.d[0m  [01;34msystem-connections[0m
+
+/etc/newt:
+[01;36mpalette[0m  palette.original  palette.ubuntu
+
+/etc/opt:
+
+/etc/pam.d:
+chfn             common-session-noninteractive  login     runuser-l
+chpasswd         cron                           newusers  su
+chsh             cups                           other     sudo
+common-account   gnome-screensaver              passwd    systemd-user
+common-auth      lightdm                        polkit-1  unity
+common-password  lightdm-autologin              ppp       vmtoolsd
+common-session   lightdm-greeter                runuser
+
+/etc/pcmcia:
+config.opts
+
+/etc/perl:
+[01;34mCPAN[0m  [01;34mNet[0m
+
+/etc/pki:
+[01;34mfwupd[0m  [01;34mfwupd-metadata[0m  [01;36mnssdb[0m
+
+/etc/pm:
+[01;34mconfig.d[0m  [01;34mpower.d[0m  [01;34msleep.d[0m
+
+/etc/polkit-1:
+[01;34mlocalauthority[0m  [01;34mlocalauthority.conf.d[0m  [01;34mnullbackend.conf.d[0m
+
+/etc/ppp:
+chap-secrets  [01;32mip-up[0m      [01;34mipv6-down.d[0m  options       [01;34mpeers[0m
+[01;32mip-down[0m       [01;34mip-up.d[0m    [01;32mipv6-up[0m      options.pptp  [01;34mresolv[0m
+[01;34mip-down.d[0m     [01;32mipv6-down[0m  [01;34mipv6-up.d[0m    pap-secrets
+
+/etc/profile.d:
+appmenu-qt5.sh    bash_completion.sh     vte-2.91.sh
+apps-bin-path.sh  cedilla-portuguese.sh
+
+/etc/pulse:
+client.conf  daemon.conf  default.pa  system.pa
+
+/etc/python:
+debian_config
+
+/etc/python2.7:
+sitecustomize.py
+
+/etc/python3:
+debian_config
+
+/etc/python3.5:
+sitecustomize.py
+
+/etc/rc0.d:
+[01;36mK01alsa-utils[0m    [01;36mK01open-vm-tools[0m        [01;36mK01urandom[0m       [01;36mK05umountnfs.sh[0m
+[01;36mK01bluetooth[0m     [01;36mK01plymouth[0m             [01;36mK01uuidd[0m         [01;36mK06networking[0m
+[01;36mK01cups-browsed[0m  [01;36mK01resolvconf[0m           [01;36mK02avahi-daemon[0m  [01;36mK07umountfs[0m
+[01;36mK01irqbalance[0m    [01;36mK01speech-dispatcher[0m    [01;36mK03sendsigs[0m      [01;36mK08umountroot[0m
+[01;36mK01kerneloops[0m    [01;36mK01thermald[0m             [01;36mK04rsyslog[0m       [01;36mK09halt[0m
+[01;36mK01lightdm[0m       [01;36mK01unattended-upgrades[0m  [01;36mK05hwclock.sh[0m    README
+
+/etc/rc1.d:
+[01;36mK01alsa-utils[0m    [01;36mK01kerneloops[0m         [01;36mK01thermald[0m      [01;36mK04rsyslog[0m
+[01;36mK01bluetooth[0m     [01;36mK01lightdm[0m            [01;36mK01ufw[0m           README
+[01;36mK01cups[0m          [01;36mK01open-vm-tools[0m      [01;36mK01uuidd[0m         [01;36mS01killprocs[0m
+[01;36mK01cups-browsed[0m  [01;36mK01saned[0m              [01;36mK01whoopsie[0m      [01;36mS02single[0m
+[01;36mK01irqbalance[0m    [01;36mK01speech-dispatcher[0m  [01;36mK02avahi-daemon[0m
+
+/etc/rc2.d:
+README                  [01;36mS02anacron[0m            [01;36mS02thermald[0m      [01;36mS04saned[0m
+[01;36mS01apport[0m               [01;36mS02cron[0m               [01;36mS02whoopsie[0m      [01;36mS05grub-common[0m
+[01;36mS01open-vm-tools[0m        [01;36mS02dbus[0m               [01;36mS03avahi-daemon[0m  [01;36mS05ondemand[0m
+[01;36mS01rsyslog[0m              [01;36mS02irqbalance[0m         [01;36mS03bluetooth[0m     [01;36mS05plymouth[0m
+[01;36mS01unattended-upgrades[0m  [01;36mS02kerneloops[0m         [01;36mS03lightdm[0m       [01;36mS14rc.local[0m
+[01;36mS01uuidd[0m                [01;36mS02rsync[0m              [01;36mS04cups[0m
+[01;36mS02acpid[0m                [01;36mS02speech-dispatcher[0m  [01;36mS04cups-browsed[0m
+
+/etc/rc3.d:
+README                  [01;36mS02anacron[0m            [01;36mS02thermald[0m      [01;36mS04saned[0m
+[01;36mS01apport[0m               [01;36mS02cron[0m               [01;36mS02whoopsie[0m      [01;36mS05grub-common[0m
+[01;36mS01open-vm-tools[0m        [01;36mS02dbus[0m               [01;36mS03avahi-daemon[0m  [01;36mS05ondemand[0m
+[01;36mS01rsyslog[0m              [01;36mS02irqbalance[0m         [01;36mS03bluetooth[0m     [01;36mS05plymouth[0m
+[01;36mS01unattended-upgrades[0m  [01;36mS02kerneloops[0m         [01;36mS03lightdm[0m       [01;36mS14rc.local[0m
+[01;36mS01uuidd[0m                [01;36mS02rsync[0m              [01;36mS04cups[0m
+[01;36mS02acpid[0m                [01;36mS02speech-dispatcher[0m  [01;36mS04cups-browsed[0m
+
+/etc/rc4.d:
+README                  [01;36mS02anacron[0m            [01;36mS02thermald[0m      [01;36mS04saned[0m
+[01;36mS01apport[0m               [01;36mS02cron[0m               [01;36mS02whoopsie[0m      [01;36mS05grub-common[0m
+[01;36mS01open-vm-tools[0m        [01;36mS02dbus[0m               [01;36mS03avahi-daemon[0m  [01;36mS05ondemand[0m
+[01;36mS01rsyslog[0m              [01;36mS02irqbalance[0m         [01;36mS03bluetooth[0m     [01;36mS05plymouth[0m
+[01;36mS01unattended-upgrades[0m  [01;36mS02kerneloops[0m         [01;36mS03lightdm[0m       [01;36mS14rc.local[0m
+[01;36mS01uuidd[0m                [01;36mS02rsync[0m              [01;36mS04cups[0m
+[01;36mS02acpid[0m                [01;36mS02speech-dispatcher[0m  [01;36mS04cups-browsed[0m
+
+/etc/rc5.d:
+README                  [01;36mS02anacron[0m            [01;36mS02thermald[0m      [01;36mS04saned[0m
+[01;36mS01apport[0m               [01;36mS02cron[0m               [01;36mS02whoopsie[0m      [01;36mS05grub-common[0m
+[01;36mS01open-vm-tools[0m        [01;36mS02dbus[0m               [01;36mS03avahi-daemon[0m  [01;36mS05ondemand[0m
+[01;36mS01rsyslog[0m              [01;36mS02irqbalance[0m         [01;36mS03bluetooth[0m     [01;36mS05plymouth[0m
+[01;36mS01unattended-upgrades[0m  [01;36mS02kerneloops[0m         [01;36mS03lightdm[0m       [01;36mS14rc.local[0m
+[01;36mS01uuidd[0m                [01;36mS02rsync[0m              [01;36mS04cups[0m
+[01;36mS02acpid[0m                [01;36mS02speech-dispatcher[0m  [01;36mS04cups-browsed[0m
+
+/etc/rc6.d:
+[01;36mK01alsa-utils[0m    [01;36mK01open-vm-tools[0m        [01;36mK01urandom[0m       [01;36mK05umountnfs.sh[0m
+[01;36mK01bluetooth[0m     [01;36mK01plymouth[0m             [01;36mK01uuidd[0m         [01;36mK06networking[0m
+[01;36mK01cups-browsed[0m  [01;36mK01resolvconf[0m           [01;36mK02avahi-daemon[0m  [01;36mK07umountfs[0m
+[01;36mK01irqbalance[0m    [01;36mK01speech-dispatcher[0m    [01;36mK03sendsigs[0m      [01;36mK08umountroot[0m
+[01;36mK01kerneloops[0m    [01;36mK01thermald[0m             [01;36mK04rsyslog[0m       [01;36mK09reboot[0m
+[01;36mK01lightdm[0m       [01;36mK01unattended-upgrades[0m  [01;36mK05hwclock.sh[0m    README
+
+/etc/rcS.d:
+README             [01;36mS02x11-common[0m        [01;36mS09checkroot-bootclean.sh[0m
+[01;36mS01console-setup[0m   [01;36mS03udev[0m              [01;36mS09kmod[0m
+[01;36mS02alsa-utils[0m      [01;36mS04keyboard-setup[0m    [01;36mS09urandom[0m
+[01;36mS02apparmor[0m        [01;36mS05brltty[0m            [01;36mS10mountall.sh[0m
+[01;36mS02dns-clean[0m       [01;36mS05mountdevsubfs.sh[0m  [01;36mS10networking[0m
+[01;36mS02hostname.sh[0m     [01;36mS05procps[0m            [01;36mS11mountall-bootclean.sh[0m
+[01;36mS02mountkernfs.sh[0m  [01;36mS05resolvconf[0m        [01;36mS11mountnfs.sh[0m
+[01;36mS02plymouth-log[0m    [01;36mS06hwclock.sh[0m        [01;36mS12mountnfs-bootclean.sh[0m
+[01;36mS02pppd-dns[0m        [01;36mS07checkroot.sh[0m      [01;36mS13bootmisc.sh[0m
+[01;36mS02ufw[0m             [01;36mS08checkfs.sh[0m        [01;36mS14rc.local[0m
+
+/etc/resolvconf:
+interface-order  [01;34mresolv.conf.d[0m  [01;34mupdate.d[0m  [01;34mupdate-libc.d[0m
+
+/etc/rsyslog.d:
+20-ufw.conf  50-default.conf
+
+/etc/sane.d:
+abaton.conf          [01;34mdll.d[0m          lexmark.conf     saned.conf
+agfafocus.conf       dmc.conf       ma1509.conf      sceptre.conf
+apple.conf           epjitsu.conf   magicolor.conf   sharp.conf
+artec.conf           epson2.conf    matsushita.conf  sm3840.conf
+artec_eplus48u.conf  epson.conf     microtek2.conf   snapscan.conf
+avision.conf         epsonds.conf   microtek.conf    sp15c.conf
+bh.conf              fujitsu.conf   mustek.conf      st400.conf
+canon630u.conf       genesys.conf   mustek_pp.conf   stv680.conf
+canon.conf           gphoto2.conf   mustek_usb.conf  tamarack.conf
+canon_dr.conf        gt68xx.conf    nec.conf         teco1.conf
+canon_pp.conf        hp3900.conf    net.conf         teco2.conf
+cardscan.conf        hp4200.conf    p5.conf          teco3.conf
+coolscan2.conf       hp5400.conf    pie.conf         test.conf
+coolscan3.conf       hp.conf        pixma.conf       u12.conf
+coolscan.conf        hpsj5s.conf    plustek.conf     umax1220u.conf
+dc210.conf           hs2p.conf      plustek_pp.conf  umax.conf
+dc240.conf           ibm.conf       qcam.conf        umax_pp.conf
+dc25.conf            kodakaio.conf  ricoh.conf       xerox_mfp.conf
+dell1600n_net.conf   kodak.conf     rts8891.conf
+dll.conf             leo.conf       s9036.conf
+
+/etc/security:
+access.conf  [01;34mlimits.d[0m        [01;32mnamespace.init[0m  pwquality.conf
+group.conf   namespace.conf  opasswd         sepermit.conf
+limits.conf  [01;34mnamespace.d[0m     pam_env.conf    time.conf
+
+/etc/selinux:
+semanage.conf
+
+/etc/sensors.d:
+
+/etc/sgml:
+[01;36mcatalog[0m  metacity-common.cat  xml-core.cat
+
+/etc/signon-ui:
+[01;34mwebkit-options.d[0m
+
+/etc/skel:
+examples.desktop
+
+/etc/speech-dispatcher:
+[01;34mclients[0m  [01;34mmodules[0m  speechd.conf
+
+/etc/ssh:
+moduli  ssh_config
+
+/etc/ssl:
+[01;34mcerts[0m  openssl.cnf  [01;34mprivate[0m
+
+/etc/sudoers.d:
+README
+
+/etc/sysctl.d:
+10-console-messages.conf  10-link-restrictions.conf  10-ptrace.conf    README
+10-ipv6-privacy.conf      10-magic-sysrq.conf        10-zeropage.conf
+10-kernel-hardening.conf  10-network-security.conf   [01;36m99-sysctl.conf[0m
+
+/etc/systemd:
+bootchart.conf  logind.conf  resolved.conf  system.conf     [01;34muser[0m
+journald.conf   [01;34mnetwork[0m      [01;34msystem[0m         timesyncd.conf  user.conf
+
+/etc/terminfo:
+README
+
+/etc/thermald:
+thermal-conf.xml  thermal-cpu-cdev-order.xml
+
+/etc/thunderbird:
+syspref.js
+
+/etc/tmpfiles.d:
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ ls /etc/?h*
+/etc/shadow  /etc/shadow-  /etc/shells
+
+/etc/chatscripts:
+gprs  pap  provider
+
+/etc/dhcp:
+debug  dhclient.conf  [0m[01;34mdhclient-enter-hooks.d[0m  [01;34mdhclient-exit-hooks.d[0m
+
+/etc/ghostscript:
+[01;34mcidfmap.d[0m  [01;34mfontmap.d[0m
+
+/etc/thermald:
+thermal-conf.xml  thermal-cpu-cdev-order.xml
+
+/etc/thunderbird:
+syspref.js
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ ls/[K /etc/*a*[K[K[K?[Ka?*[K[K[K?a*[K[K[K*a?
+/etc/anacrontab  /etc/fstab  /etc/legal         /etc/mailcap  /etc/rc.local
+/etc/crontab     /etc/iftab  /etc/locale.alias  [0m[01;36m/etc/mtab[0m
+
+/etc/calendar:
+default
+
+/etc/ldap:
+ldap.conf
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ lls[K[Ks /etc \[K\[K\[K| grep^[a-e]\[K\[K|grep ^[^b-c]
+grep^[a-e]: command not found
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ ls /etc | grep^[a-e]|grep ^[^b-c][1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+grep^[a-e]: command not found
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ ls /etc |grep^[a-e]|grep ^[^b-c][1@ 
+[01;31m[Ka[m[Kcpi
+[01;31m[Ka[m[Kdduser.conf
+[01;31m[Ka[m[Klternatives
+[01;31m[Ka[m[Knacrontab
+[01;31m[Ka[m[Kpg.conf
+[01;31m[Ka[m[Kpm
+[01;31m[Ka[m[Kpparmor
+[01;31m[Ka[m[Kpparmor.d
+[01;31m[Ka[m[Kpport
+[01;31m[Ka[m[Kppstream.conf
+[01;31m[Ka[m[Kpt
+[01;31m[Ka[m[Kptdaemon
+[01;31m[Ka[m[Kt-spi2
+[01;31m[Ka[m[Kvahi
+[01;31m[Kd[m[Kbus-1
+[01;31m[Kd[m[Kconf
+[01;31m[Kd[m[Kebconf.conf
+[01;31m[Kd[m[Kebian_version
+[01;31m[Kd[m[Kefault
+[01;31m[Kd[m[Keluser.conf
+[01;31m[Kd[m[Kepmod.d
+[01;31m[Kd[m[Khcp
+[01;31m[Kd[m[Kictionaries-common
+[01;31m[Kd[m[Knsmasq.d
+[01;31m[Kd[m[Koc-base
+[01;31m[Kd[m[Kpkg
+[01;31m[Kd[m[Krirc
+[01;31m[Ke[m[Kmacs
+[01;31m[Ke[m[Knvironment
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ touch -myfile
+touch: invalid option -- 'y'
+Try 'touch --help' for more information.
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ touch ~/-myfile
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ rm ./-myfile
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ touch -- linux2002/"hello"
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ chmod 000 linux2002/"hello"
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ touch --linux2002/"hello?"
+touch: unrecognized option '--linux2002/hello?'
+Try 'touch --help' for more information.
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ touch --linux2002/"hello?" linux2002/"hello?"
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ touch -- linux2002/"hello?"[1Plinux2002/"hello?"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod 000 linux2002/"hello"[C[1P linux2002/"hello"[1P linux2002/"hello"[1P linux2002/"hello"7 linux2002/"hello"7 linux2002/"hello"7 linux2002/"hello"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C?"
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ chmod 777 linux2002/"hello?"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Ptouch --[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"*"[C
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ touch -- linux2002/"hello*"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod 777 linux2002/"hello?"[1Plinux2002/"hello?"[1Plinux2002/"hello?"[1Plinux2002/"hello?"6linux2002/"hello?"4linux2002/"hello?" linux2002/"hello?"
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ chmod 764 linux2002/"hello?"[1P"&"[1P"*"
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ mkdir HOME ls-r/boot .[K> HOME/b[Kbootlist.txt
+bash: HOME/bootlist.txt: No such file or directory
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ mkdir HOME ls-r/boot > HOME/bootlist.txt[1@t[1@o[1@u[1@c[1@h[1@ [C[1@ [1@b[1@o[1@o[1@t[C[C[1@ [C[1@ [1@l[1@i[1@s[1@t[C[C[C[1@ [1@.[1@tx    mkdir HOME ls-r/boot > HOME/bootlist.txt [A]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct    mkdir HOME ls-r/boot > HOME/bootlist.txtt[A]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmkdir HOME ls-r/boot > HOME/bootlist.txt [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C;  mkdir HOME ls-r/boot > HOME/bootlist.txtt[A]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmkdir HOME ls-r/boot > HOME/bootlist.txt [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+bash: HOME/bootlist.txt: No such file or directory
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ touch bootlist.txt ; mkdir HOME ls-r/boot > HOME/bootlist.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P HOME/bootlist.txt[1PHOME/bootlist.txt> HOME/bootlist.txt
+bash: HOME/bootlist.txt: No such file or directory
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ mkdir HOME ls-r/boot> HOME/bootlist.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch bootlist.txt ; mkdir HOME ls-r/boot > HOME/bootlist.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pmkdir HOME ls-r/boot
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch bootlist.txt ; mkdir HOME ls-r/boot > HOME/bootlist.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch bootlist.txt ; mkdir HOME ls-r/boot > HOME/bootlist.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kxt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P HOME/bootlist.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1PHOME/bootlist.txt> HOME/bootlist.txt
+bash: HOME/bootlist.txt: No such file or directory
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ grep sv /etc/passwd
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ grep b[K/bin/bash /etc/passwd
+root:x:0:0:root:/root:[01;31m[K/bin/bash[m[K
+ngocngoc:x:1000:1000:ngocngoc,,,:/home/ngocngoc:[01;31m[K/bin/bash[m[K
+guest-cyduoh:x:999:999:Guest:/tmp/guest-cyduoh:[01;31m[K/bin/bash[m[K
+guest-d5mycz:x:998:998:Guest:/tmp/guest-d5mycz:[01;31m[K/bin/bash[m[K
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ grep -v bin/bash /etc/passwd
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:100:102:systemd Time Synchronization,,,:/run/systemd:/bin/false
+systemd-network:x:101:103:systemd Network Management,,,:/run/systemd/netif:/bin/false
+systemd-resolve:x:102:104:systemd Resolver,,,:/run/systemd/resolve:/bin/false
+systemd-bus-proxy:x:103:105:systemd Bus Proxy,,,:/run/systemd:/bin/false
+syslog:x:104:108::/home/syslog:/bin/false
+_apt:x:105:65534::/nonexistent:/bin/false
+messagebus:x:106:110::/var/run/dbus:/bin/false
+uuidd:x:107:111::/run/uuidd:/bin/false
+lightdm:x:108:114:Light Display Manager:/var/lib/lightdm:/bin/false
+whoopsie:x:109:117::/nonexistent:/bin/false
+avahi-autoipd:x:110:119:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/bin/false
+avahi:x:111:120:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/bin/false
+dnsmasq:x:112:65534:dnsmasq,,,:/var/lib/misc:/bin/false
+colord:x:113:123:colord colour management daemon,,,:/var/lib/colord:/bin/false
+speech-dispatcher:x:114:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/false
+hplip:x:115:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+kernoops:x:116:65534:Kernel Oops Tracking Daemon,,,:/:/bin/false
+pulse:x:117:124:PulseAudio daemon,,,:/var/run/pulse:/bin/false
+rtkit:x:118:126:RealtimeKit,,,:/proc:/bin/false
+saned:x:119:127::/var/lib/saned:/bin/false
+usbmux:x:120:46:usbmux daemon,,,:/var/lib/usbmux:/bin/false
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ chmod u=rw,g=r*[K * [K.ttf
+chmod: cannot access '*.ttf': No such file or directory
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ ./[K[K whereis -b startx
+startx: /usr/bin/startx
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ who
+ngocngoc tty7         2018-05-22 23:15 (:0)
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ tar czvf[K[K[K[K-x[Kczvf linux2002.tar.gz ~/linux2002
+tar: Removing leading `/' from member names
+/home/ngocngoc/linux2002/
+/home/ngocngoc/linux2002/hello?
+/home/ngocngoc/linux2002/homelist.txt
+/home/ngocngoc/linux2002/hello*
+tar: /home/ngocngoc/linux2002/hello: Cannot open: Permission denied
+tar: Exiting with failure status due to previous errors
+]0;ngocngoc@ubuntu: ~[01;32mngocngoc@ubuntu[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Wed 23 May 2018 12:08:51 AM NZST
